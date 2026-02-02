@@ -8,12 +8,13 @@ export default function History() {
   const [codingHistory, setCodingHistory] = useState([]);
   const [combinedHistory, setCombinedHistory] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [problemsMap, setProblemsMap] = useState({});
   const [stats, setStats] = useState({
     totalSessions: 0,
     totalTime: 0,
     averageScore: 0
   });
-  const [filter, setFilter] = useState('all');
+  const [filter, setFilter] = useState('technical');
 
   // Create combined history from all session types
   const allCombinedHistory = [
@@ -23,8 +24,32 @@ export default function History() {
   ].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
   useEffect(() => {
+    fetchProblems();
     fetchHistory();
   }, [filter]);
+
+  const fetchProblems = async () => {
+    try {
+      const response = await fetch('/merged_problems.json');
+      const data = await response.json();
+      const map = {};
+      data.questions.forEach(problem => {
+        // Map multiple possible ID formats
+        map[problem.problem_id] = problem.title;
+        map[`question-${problem.problem_id}`] = problem.title;
+        map[problem.frontend_id] = problem.title;
+        map[`question-${problem.frontend_id}`] = problem.title;
+        // Handle zero-based indexing
+        const zeroBasedId = parseInt(problem.problem_id) - 1;
+        if (zeroBasedId >= 0) {
+          map[`question-${zeroBasedId}`] = problem.title;
+        }
+      });
+      setProblemsMap(map);
+    } catch (error) {
+      console.error('Error fetching problems:', error);
+    }
+  };
 
   const fetchHistory = async () => {
     try {
@@ -48,7 +73,12 @@ export default function History() {
       // Fetch coding submissions if coding tab is selected
       if (filter === 'coding') {
         try {
-          const codingResponse = await api.get('/submissions');
+          const codingResponse = await api.get('/submissions', { 
+            params: { 
+              limit: 1000, // Increase limit to get more submissions
+              all: true     // Request all submissions, not just recent ones
+            } 
+          });
           const codingSubmissions = codingResponse?.data?.submissions || [];
           setCodingHistory(codingSubmissions);
         } catch (error) {
@@ -125,7 +155,6 @@ export default function History() {
   };
 
   const filters = [
-    { value: 'all', label: 'All Sessions' },
     { value: 'technical', label: 'Technical' },
     { value: 'hr', label: 'HR' },
     { value: 'aptitude', label: 'Aptitude' },
@@ -255,12 +284,9 @@ export default function History() {
               <table className="min-w-full border-collapse">
                 <thead className="bg-white border-b border-gray-200">
                   <tr className="text-xs font-semibold text-gray-500 tracking-wide">
-                    <th className="px-8 py-4 text-left">DATE & TIME</th>
-                    <th className="px-8 py-4 text-left">TYPE</th>
                     <th className="px-8 py-4 text-left">PROBLEM</th>
                     <th className="px-8 py-4 text-left">LANGUAGE</th>
                     <th className="px-8 py-4 text-left">STATUS</th>
-                    <th className="px-8 py-4 text-left">RUNTIME</th>
                     <th className="px-8 py-4 text-left">TEST CASES</th>
                   </tr>
                 </thead>
@@ -268,18 +294,13 @@ export default function History() {
                 <tbody className="divide-y divide-gray-100 text-sm">
                   {codingHistory.map((item) => (
                     <tr key={item._id} className="hover:bg-gray-50">
-                      <td className="px-8 py-5 text-gray-700">
-                        {new Date(item.createdAt).toLocaleString()}
-                      </td>
-
-                      <td className="px-8 py-5">
-                        <span className="px-4 py-1.5 text-xs font-semibold rounded-full bg-blue-100 text-blue-600">
-                          Coding
-                        </span>
-                      </td>
-
                       <td className="px-8 py-5 font-medium text-gray-800">
-                        Problem #{item.questionId}
+                        {problemsMap[item.questionId] || 
+                         problemsMap[item.questionId?.toString()] || 
+                         problemsMap[`question-${item.questionId}`] ||
+                         item.problemName || 
+                         item.title || 
+                         `Problem #${item.questionId}`}
                       </td>
 
                       <td className="px-8 py-5 text-gray-600 capitalize">
@@ -296,10 +317,6 @@ export default function History() {
                         >
                           {item.status}
                         </span>
-                      </td>
-
-                      <td className="px-8 py-5 text-gray-600">
-                        {item.runtime}
                       </td>
 
                       <td className="px-8 py-5 text-gray-700 font-medium">
