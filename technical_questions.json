@@ -1,0 +1,1736 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which if the following is/are the levels of implementation of data structure ?",
+    "options": {
+      "A": "Abstract level",
+      "B": "Application level",
+      "C": "Implementation level",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 2,
+    "question": "A binary search tree whose left subtree and right subtree differ in hight by at most 1 unit is called ?",
+    "options": {
+      "A": "AVL tree",
+      "B": "Red-black tree",
+      "C": "Lemma tree",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 3,
+    "question": "What is the time complexity of inserting an element at the end of an array?",
+    "options": {
+      "A": "O(1)",
+      "B": "O(nlogn)",
+      "C": "O(log n)",
+      "D": "O(n)"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 4,
+    "question": "Which data structure is best suited for implementing a recursive algorithm?",
+    "options": {
+      "A": "Stack",
+      "B": "Queue",
+      "C": "Array",
+      "D": "Linked List"
+    },
+    "answer": "A",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 5,
+    "question": "In a binary search tree which traversal visits the nodes in ascending order?",
+    "options": {
+      "A": "Preorder",
+      "B": "Inorder",
+      "C": "Postorder",
+      "D": "Levelorder"
+    },
+    "answer": "B",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 6,
+    "question": "Which sorting algorithm has the best average-case time complexity?",
+    "options": {
+      "A": "Merge Sort",
+      "B": "Selection sort",
+      "C": "Insertion Sort",
+      "D": "Bubble sort"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 7,
+    "question": "What is the worst-case time complexity of quicksort?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(nlogn)",
+      "C": "O(n^2)",
+      "D": "O(log n)"
+    },
+    "answer": "C",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 8,
+    "question": "Which data structure is used in Depth First Search (DFS) algorithm?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Heap",
+      "D": "Linked List"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 9,
+    "question": "What is the purpose of a hash table in data structures?",
+    "options": {
+      "A": "To store data in a sorted manner",
+      "B": "To implement priority queues",
+      "C": "To provide constant-time access to elements",
+      "D": "To sort elements efficiently"
+    },
+    "answer": "C",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 10,
+    "question": "Which data structure is used to implement a LIFO behavior?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Heap",
+      "D": "Tree"
+    },
+    "answer": "A",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 11,
+    "question": "What is the time complexity of finding an element in a binary search tree?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(nlogn)",
+      "C": "O(log n)",
+      "D": "O(n^2)"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 12,
+    "question": "Which data structure is suitable for implementing a breadth-first search (BFS) algorithm?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "LinkedList",
+      "D": "Heap"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 13,
+    "question": "Which data structure is typically used to implement a priority queue?",
+    "options": {
+      "A": "Heap",
+      "B": "Stack",
+      "C": "Queue",
+      "D": "LinkedList"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 14,
+    "question": "What is the time complexity of searching for an element in a hash table with a good hash function?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(nlogn)",
+      "C": "O(n^2)",
+      "D": "O(1)"
+    },
+    "answer": "D",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 15,
+    "question": "Which sorting algorithm is known for its stability?",
+    "options": {
+      "A": "Merge Sort",
+      "B": "Selection sort",
+      "C": "Quick Sort",
+      "D": "Insertion Sort"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 16,
+    "question": "In a binary search tree which operation is used to find the minimum element?",
+    "options": {
+      "A": "findMin()",
+      "B": "getMin()",
+      "C": "minElement()",
+      "D": "minValue()"
+    },
+    "answer": "A",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 17,
+    "question": "Which data structure is used to implement a disjoint-set data structure efficiently?",
+    "options": {
+      "A": "Array ",
+      "B": "Heap",
+      "C": "Disjoint-Set Forest",
+      "D": "Linked List"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 18,
+    "question": "What is the time complexity of finding the shortest path in a weighted graph using Dijkstra's algorithm?",
+    "options": {
+      "A": "O(E log V)",
+      "B": "O( E )",
+      "C": "O(V)",
+      "D": "O(V log V)"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 19,
+    "question": "Which data structure is used to implement a cache with a least recently used (LRU) eviction policy?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "LinkedList",
+      "D": "Hash Table"
+    },
+    "answer": "B",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 20,
+    "question": "What is the time complexity of inserting an element in a heap data structure?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(nlogn)",
+      "C": "O(1)",
+      "D": "O(log n)"
+    },
+    "answer": "D",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 21,
+    "question": "Which algorithm is used to find the strongly connected components in a directed graph?",
+    "options": {
+      "A": "Dijkstra's Algorithm",
+      "B": "Prim's Algorithm",
+      "C": "Bellman-Ford Algorithm",
+      "D": "Tarjan's Algorithm"
+    },
+    "answer": "D",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 22,
+    "question": "What is the time complexity of the best-case scenario for quicksort?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(nlogn)",
+      "C": "O(n^2)",
+      "D": "O(log n)"
+    },
+    "answer": "B",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 23,
+    "question": "Worst Case Time complexity of accessing an element from a Linked List",
+    "options": {
+      "A": "O(n)",
+      "B": "O(nlogn)",
+      "C": "O(n^2)",
+      "D": "O(log n)"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 24,
+    "question": "Which of the following is not a fundamental data type in C?",
+    "options": {
+      "A": "int",
+      "B": "String",
+      "C": "double",
+      "D": "float"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 25,
+    "question": "Which of the following is not a valid access specifier in Java?",
+    "options": {
+      "A": "private",
+      "B": "public",
+      "C": "internal",
+      "D": "protected"
+    },
+    "answer": "C",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 26,
+    "question": "What is the purpose of the final keyword in Java?",
+    "options": {
+      "A": "To declare a constant variable",
+      "B": "To prevent method overriding",
+      "C": "To prevent class inheritance",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following is not a valid loop statement in Python?",
+    "options": {
+      "A": "for",
+      "B": "while",
+      "C": "do-while",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 28,
+    "question": "What is the purpose of the __init__ method in Python?",
+    "options": {
+      "A": "To define a constructor for a class",
+      "B": "To define a destructor for a class",
+      "C": "To define a static method for a class",
+      "D": "To define a class method"
+    },
+    "answer": "A",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following is not a valid HTTP method?",
+    "options": {
+      "A": "GET",
+      "B": "POST",
+      "C": "PUT",
+      "D": "EXECUTE"
+    },
+    "answer": "D",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 30,
+    "question": "What is the purpose of the JOIN clause in SQL?",
+    "options": {
+      "A": "To combine rows from two or more tables based on a related column between them",
+      "B": "To filter rows based on a specified condition",
+      "C": "To group rows that have the same values into summary rows",
+      "D": "To sort the result set in ascending or descending order"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 31,
+    "question": "Which of the following is not a valid normalization form?",
+    "options": {
+      "A": "1NF",
+      "B": "2NF",
+      "C": "3NF",
+      "D": "5NF"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 32,
+    "question": "What is the purpose of the HAVING clause in SQL?",
+    "options": {
+      "A": "To filter rows based on a specified condition",
+      "B": "To group rows that have the same values into summary rows",
+      "C": "To filter groups based on a specified condition",
+      "D": "To sort the result set in ascending or descending order"
+    },
+    "answer": "C",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 33,
+    "question": "What is the primary goal of machine learning?",
+    "options": {
+      "A": " To program computers without human intervention",
+      "B": "To enable computers to learn from data and improve performance over time",
+      "C": "To create AI systems that can outperform humans",
+      "D": "To develop complex algorithms for data processing"
+    },
+    "answer": "B",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 34,
+    "question": "Which type of machine learning algorithm is trained on labeled data to make predictions on new unseen data?",
+    "options": {
+      "A": "Unsupervised Learning",
+      "B": "Reinforcement Learning",
+      "C": "Semi-supervised Learning",
+      "D": "Supervised Learning"
+    },
+    "answer": "D",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 35,
+    "question": "What is the process of preparing raw data by cleaning transforming and normalizing it for machine learning?",
+    "options": {
+      "A": "Data Preprocessing",
+      "B": "Data Engineering",
+      "C": "Data Wrangling",
+      "D": "Data Augmentation"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 36,
+    "question": "In unsupervised learning the primary task is:",
+    "options": {
+      "A": "Predicting an output value based on input data",
+      "B": "Discovering patterns or structures in data",
+      "C": "Maximizing cumulative rewards through interactions with the environment",
+      "D": "Learning from expert demonstrations"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 37,
+    "question": "Which machine learning algorithm is inspired by the behavior of neurons in the human brain?",
+    "options": {
+      "A": "Decision Trees",
+      "B": "k-Nearest Neighbors (k-NN)",
+      "C": "Support Vector Machines (SVM)",
+      "D": "Artificial Neural Networks (ANN)"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 38,
+    "question": "What is the process of feeding a machine learning model with data to adjust its internal parameters and improve performance?",
+    "options": {
+      "A": "Model Validation",
+      "B": "Model Optimization",
+      "C": "Model Training",
+      "D": "Model Testing"
+    },
+    "answer": "C",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 39,
+    "question": "The loss function in a machine learning model measures:",
+    "options": {
+      "A": "The number of features used in the model",
+      "B": "The complexity of the model",
+      "C": "The difference between predicted and actual values",
+      "D": "The time taken to train the model"
+    },
+    "answer": "C",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 40,
+    "question": "What is the name of the technique used to deal with overfitting in machine learning models?",
+    "options": {
+      "A": "Underfitting",
+      "B": "Regularization",
+      "C": "Feature Engineering",
+      "D": "Cross-validation"
+    },
+    "answer": "B",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 41,
+    "question": "Which machine learning algorithm is commonly used for classification tasks and is based on finding the best hyperplane that separates data points into different classes?",
+    "options": {
+      "A": "Decision Trees",
+      "B": "Support Vector Machines (SVM)",
+      "C": "Random Forest",
+      "D": "k-Nearest Neighbors (k-NN)"
+    },
+    "answer": "B",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 42,
+    "question": "What is the purpose of feature scaling in machine learning?",
+    "options": {
+      "A": "To normalize the range of independent variables",
+      "B": "To add new features to the dataset",
+      "C": "To reduce the number of features",
+      "D": "To remove outliers from the dataset"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 43,
+    "question": "What is the purpose of the bias term in a machine learning model?",
+    "options": {
+      "A": "To introduce randomness into the model",
+      "B": "To shift the decision boundary of the model",
+      "C": "To control the complexity of the model",
+      "D": "To provide a constant offset for the model's predictions"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 44,
+    "question": "Which machine learning algorithm is used for dimensionality reduction and can capture the most important features in a dataset?",
+    "options": {
+      "A": "Principal Component Analysis (PCA)",
+      "B": "Linear Discriminant Analysis (LDA)",
+      "C": "t-SNE (t-Distributed Stochastic Neighbor Embedding)",
+      "D": "Autoencoders"
+    },
+    "answer": "A",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 45,
+    "question": "What is the purpose of the activation function in an artificial neural network?",
+    "options": {
+      "A": "To introduce non-linearity into the model",
+      "B": "To control the learning rate of the model",
+      "C": "To prevent overfitting in the model",
+      "D": "To initialize the weights of the model"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 46,
+    "question": "Which machine learning algorithm is used for clustering data points into groups based on their similarity?",
+    "options": {
+      "A": "k-Means Clustering",
+      "B": "Hierarchical Clustering",
+      "C": "DBSCAN (Density-Based Spatial Clustering of Applications with Noise)",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 47,
+    "question": "What is the purpose of the validation set in machine learning?",
+    "options": {
+      "A": "To train the model",
+      "B": "To evaluate the performance of the model during training",
+      "C": "To tune the hyperparameters of the model",
+      "D": "To test the final performance of the model"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 48,
+    "question": "Which machine learning algorithm is used for anomaly detection and can identify outliers in a dataset?",
+    "options": {
+      "A": "Isolation Forest",
+      "B": "One-Class SVM",
+      "C": "Local Outlier Factor (LOF)",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 49,
+    "question": "What is the purpose of the learning rate in a machine learning model?",
+    "options": {
+      "A": "To control the step size during optimization",
+      "B": "To prevent overfitting in the model",
+      "C": "To initialize the weights of the model",
+      "D": "To introduce randomness into the model"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 50,
+    "question": "Which machine learning algorithm is used for recommendation systems and can predict the preferences of users based on their past behavior?",
+    "options": {
+      "A": "Collaborative Filtering",
+      "B": "Content-Based Filtering",
+      "C": "Matrix Factorization",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 51,
+    "question": "What is the purpose of the regularization parameter in a machine learning model?",
+    "options": {
+      "A": "To control the complexity of the model",
+      "B": "To introduce non-linearity into the model",
+      "C": "To prevent overfitting in the model",
+      "D": "To tune the learning rate of the model"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 52,
+    "question": "Which machine learning algorithm is used for natural language processing tasks and can generate human-like text?",
+    "options": {
+      "A": "Recurrent Neural Networks (RNNs)",
+      "B": "Long Short-Term Memory (LSTMs)",
+      "C": "Transformers",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 53,
+    "question": "Which Experiment says that light is a wave?",
+    "options": {
+      "A": "young's double slith Experiment",
+      "B": "Fizeu's method",
+      "C": "compton scattering",
+      "D": "Michel-Morley Experiment"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 54,
+    "question": "What is the purpose of the const keyword in C++?",
+    "options": {
+      "A": "To declare a constant variable",
+      "B": "To declare a static variable",
+      "C": "To declare a pointer to a constant variable",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 55,
+    "question": "Which of the following is not a valid access specifier in Java?",
+    "options": {
+      "A": "public",
+      "B": "private",
+      "C": "protected",
+      "D": "internal"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 56,
+    "question": "What is the purpose of the break statement in a loop?",
+    "options": {
+      "A": "To exit the current iteration of the loop",
+      "B": "To exit the entire loop",
+      "C": "To skip the current iteration of the loop",
+      "D": "To continue to the next iteration of the loop"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 57,
+    "question": "What is the purpose of the continue statement in a loop?",
+    "options": {
+      "A": "To exit the current iteration of the loop",
+      "B": "To exit the entire loop",
+      "C": "To continue to the next iteration of the loop",
+      "D": "To skip the current iteration of the loop"
+    },
+    "answer": "D",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 58,
+    "question": "What is the purpose of the static keyword in C++?",
+    "options": {
+      "A": "To declare a variable with global scope",
+      "B": "To declare a variable with local scope",
+      "C": "To declare a variable with static storage duration",
+      "D": "To declare a variable with dynamic storage duration"
+    },
+    "answer": "C",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 59,
+    "question": "What is the purpose of the virtual keyword in C++?",
+    "options": {
+      "A": "To declare a virtual function",
+      "B": "To declare a pure virtual function",
+      "C": "To declare a virtual base class",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 60,
+    "question": "What is the purpose of the abstract keyword in Java?",
+    "options": {
+      "A": "To declare an abstract class",
+      "B": "To declare an abstract method",
+      "C": "To declare an interface",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 61,
+    "question": "What is the purpose of the interface keyword in Java?",
+    "options": {
+      "A": "To define a contract for classes to implement",
+      "B": "To define a class that cannot be instantiated",
+      "C": "To define a class that can be extended by other classes",
+      "D": "To define a class that can be used as a template for creating objects"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 62,
+    "question": "What is the purpose of the yield statement in Python?",
+    "options": {
+      "A": "To exit a function and return a value",
+      "B": "To pause the execution of a function and return a value",
+      "C": "To raise an exception in a function",
+      "D": "To define a generator function"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 63,
+    "question": "What is the purpose of the lambda keyword in Python?",
+    "options": {
+      "A": "To define a function with a single expression",
+      "B": "To define a function with multiple expressions",
+      "C": "To define a function with a name",
+      "D": "To define a function with a return statement"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 64,
+    "question": "What is the purpose of the try-except block in Python?",
+    "options": {
+      "A": "To handle exceptions that may occur during the execution of a program",
+      "B": "To define a function that may raise an exception",
+      "C": "To define a module that may raise an exception",
+      "D": "To define a class that may raise an exception"
+    },
+    "answer": "A",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 65,
+    "question": "What is the purpose of the super() function in Python",
+    "options": {
+      "A": "To call a method in a parent class from a child class",
+      "B": "To create a new instance of a class",
+      "C": "To define a class method",
+      "D": "To define a static method"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 66,
+    "question": "Which of the following is not a programming language?",
+    "options": {
+      "A": "Python",
+      "B": "C++",
+      "C": "ASCII",
+      "D": "Java"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 67,
+    "question": "Which of the following is not a data structure?",
+    "options": {
+      "A": "Algorithm",
+      "B": "Stack",
+      "C": "Linked List",
+      "D": "Array"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 68,
+    "question": "What is the time complexity of the binary search algorithm?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(nlogn)",
+      "C": "O(n^2)",
+      "D": "O(log n)"
+    },
+    "answer": "D",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 69,
+    "question": "Which of the following is not a type of software testing?",
+    "options": {
+      "A": "Unit testing",
+      "B": "System testing",
+      "C": "Integration testing",
+      "D": "Functional testing"
+    },
+    "answer": "D",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 70,
+    "question": "What is the primary purpose of a database management system (DBMS)?",
+    "options": {
+      "A": "To provide a user interface for the database",
+      "B": "To store data in the database",
+      "C": "To manage and manipulate data in the database",
+      "D": "To provide security for the database"
+    },
+    "answer": "C",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 71,
+    "question": "What is the primary function of a switch in a network?",
+    "options": {
+      "A": "To provide a firewall",
+      "B": "To connect multiple networks",
+      "C": "To forward data packets to the appropriate device",
+      "D": "To convert data from analog to digital"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 72,
+    "question": "Which of the following is not a type of malware?",
+    "options": {
+      "A": "Worm",
+      "B": "Virus",
+      "C": "Trojan horse",
+      "D": "Firewall"
+    },
+    "answer": "D",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 73,
+    "question": "What is the primary purpose of normalization in a database?",
+    "options": {
+      "A": "To reduce data redundancy and improve data integrity",
+      "B": "To increase data redundancy and improve data security",
+      "C": "To provide a user interface for the database",
+      "D": "To store data in the database"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 74,
+    "question": "Which of the following is not a type of cloud computing?",
+    "options": {
+      "A": "IaaS",
+      "B": "Paas",
+      "C": "Saas",
+      "D": "Laas"
+    },
+    "answer": "D",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 75,
+    "question": "What is the primary purpose of a compiler in programming?",
+    "options": {
+      "A": "To convert high-level language into machine language",
+      "B": "To find errors in the program",
+      "C": "To provide a user interface for the program",
+      "D": "To document the program"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 76,
+    "question": "What is the primary function of a router in a network?",
+    "options": {
+      "A": " To provide a firewall",
+      "B": "To connect multiple networks",
+      "C": "To amplify the signal",
+      "D": "To forward data packets to the appropriate device"
+    },
+    "answer": "B",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 77,
+    "question": "Which of the following is not a type of virtualization?",
+    "options": {
+      "A": " Server virtualization",
+      "B": "Desktop virtualization",
+      "C": "Network virtualization",
+      "D": "None of the above"
+    },
+    "answer": "D",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 78,
+    "question": "What is the primary purpose of a load balancer in a network?",
+    "options": {
+      "A": "To provide a firewall",
+      "B": "To connect multiple networks",
+      "C": " To distribute network traffic evenly across multiple servers",
+      "D": "To convert data from analog to digital"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 79,
+    "question": "What is the primary purpose of a cache in computing?",
+    "options": {
+      "A": "To provide a backup for the data",
+      "B": "To store data permanently",
+      "C": "To provide security for the data",
+      "D": "To provide temporary storage for frequently used data"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 80,
+    "question": "Which of the following is not a type of search algorithm?",
+    "options": {
+      "A": "Binary search",
+      "B": "Linear search",
+      "C": "Depth-first search",
+      "D": "None of the above"
+    },
+    "answer": "D",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 81,
+    "question": "Which of the following is not a principle of object-oriented programming?",
+    "options": {
+      "A": "Encapsulation",
+      "B": "Inheritance",
+      "C": "Polymorphism",
+      "D": "Multiprocessing"
+    },
+    "answer": "D",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 82,
+    "question": "Which of the following is not a type of network?",
+    "options": {
+      "A": "LAN",
+      "B": "MAN",
+      "C": "WAN",
+      "D": "CAN"
+    },
+    "answer": "D",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 83,
+    "question": "In the context of databases what does ACID stand for?",
+    "options": {
+      "A": "Atomicity Consistency Isolation Durability",
+      "B": "Access Consistency Integrity Database",
+      "C": "Atomicity Completeness Isolation Durability",
+      "D": " Availability Concurrency Integrity Durability"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 84,
+    "question": "What is the main difference between a stack and a queue?",
+    "options": {
+      "A": "Stacks are static & queues are dynamic data structures",
+      "B": " Stacks follow LIFO order & queues follow FIFO order",
+      "C": " Stacks can only store integers & queues can store any data type",
+      "D": "There is no difference & they are the same thing"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 85,
+    "question": "What is the purpose of the virtual keyword in C++?",
+    "options": {
+      "A": "To create a pure virtual function",
+      "B": "To overload operators",
+      "C": "To declare a friend function",
+      "D": "To create a virtual base class"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 86,
+    "question": "What is the main purpose of a Trie data structure?",
+    "options": {
+      "A": "Efficient information retrieval",
+      "B": "Efficient sorting of data",
+      "C": "Efficient searching of keys",
+      "D": "Efficient compression of data"
+    },
+    "answer": "C",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 87,
+    "question": "In the context of computer networks what does TCP stand for?",
+    "options": {
+      "A": "Transmission Control Protocol",
+      "B": "Transfer Connected Protocol",
+      "C": "Transformative Connecting Protocol",
+      "D": "Transparent Connectivity Protocol"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 88,
+    "question": "What is the purpose of the finally block in Java exception handling?",
+    "options": {
+      "A": "To define an alternative execution path",
+      "B": "To execute code regardless of whether an exception is thrown or not",
+      "C": "To handle a specific type of exception",
+      "D": "To explicitly throw an exception"
+    },
+    "answer": "B",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 89,
+    "question": "What is the key difference between public and private inheritance in C++?",
+    "options": {
+      "A": "Public inheritance preserves base class member access but private does not",
+      "B": "Private inheritance is more memory efficient than public inheritance",
+      "C": "There is no difference they are the same thing",
+      "D": "Private inheritance allows accessing private members but public does not"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 90,
+    "question": "In the context of machine learning what is overfitting?",
+    "options": {
+      "A": "When a model performs well on training data but poorly on new data",
+      "B": "When a model fails to capture underlying patterns in data",
+      "C": "When a model is too simple to learn from data effectively",
+      "D": "When a model has high bias and high variance"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 91,
+    "question": "What is the key difference between GPU and CPU?",
+    "options": {
+      "A": "GPUs are better for parallel processing & CPUs are better for serial processing",
+      "B": "GPUs consume more power than CPUs",
+      "C": "GPUs are faster than CPUs for all types of computations",
+      "D": "There is no difference they are interchangeable"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 92,
+    "question": "What is the purpose of the volatile keyword in C/C++?",
+    "options": {
+      "A": "To declare a global variable",
+      "B": "To prevent compiler optimizations that reorder operations",
+      "C": "To create a thread-safe variable",
+      "D": "To indicate that a value may change unexpectedly"
+    },
+    "answer": "D",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 93,
+    "question": "In the context of operating systems what is thrashing?",
+    "options": {
+      "A": "Excessive swapping of processes between main memory and disk",
+      "B": "A type of memory leak caused by frequent allocation and deallocation",
+      "C": "A condition where the CPU is constantly busy but no processes are making progress",
+      "D": "A security vulnerability that allows unauthorized access to system resources"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 94,
+    "question": "What is the purpose of the static keyword in Java?",
+    "options": {
+      "A": "To declare a static method",
+      "B": "To create a singleton class",
+      "C": "To allocate memory for a variable at compile-time",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 95,
+    "question": "In the context of databases what is denormalization?",
+    "options": {
+      "A": "The process of optimizing the database for better read performance",
+      "B": "The process of removing redundant data from a database",
+      "C": "The process of converting data into a more readable format",
+      "D": "The process of creating additional indexes for faster queries"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 96,
+    "question": "What is the purpose of the final keyword in Java?",
+    "options": {
+      "A": "To declare a constant variable",
+      "B": "To prevent a class from being subclassed",
+      "C": "To create an immutable object",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 97,
+    "question": "In the context of computer networks what is a NAT (Network Address Translation)?",
+    "options": {
+      "A": "A protocol for translating private IP addresses to public IP addresses",
+      "B": "A type of firewall used to protect networks from unauthorized access",
+      "C": "A technique for load balancing network traffic across multiple servers",
+      "D": "A method for compressing network data to reduce bandwidth usage"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 98,
+    "question": "What is the purpose of the friend keyword in C++?",
+    "options": {
+      "A": "To declare a function or class as a friend of another class",
+      "B": "To create a friendship between two objects",
+      "C": "To overload operators for a class",
+      "D": "To optimize a function for better performance"
+    },
+    "answer": "A",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 99,
+    "question": "In the context of machine learning what is a convolutional neural network (CNN)?",
+    "options": {
+      "A": "A type of neural network used for image classification and recognition",
+      "B": "A neural network designed for time series forecasting",
+      "C": "A type of unsupervised learning algorithm for clustering",
+      "D": "A type of supervised learning"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 100,
+    "question": "What is the key difference between depth-first search (DFS) and breadth-first search (BFS)?",
+    "options": {
+      "A": "DFS explores as far as possible along each branch before backtracking & BFS explores all nodes at the current depth before moving to the next level",
+      "B": "DFS is more memory-efficient than BFS",
+      "C": "BFS is guaranteed to find the shortest path & DFS is not",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "company_tag": "capagemini",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 101,
+    "question": "In the context of computer architecture what is pipelining?",
+    "options": {
+      "A": "A technique to improve CPU performance by breaking down instruction execution into a series of smaller steps",
+      "B": "A way to connect multiple CPUs to increase processing power",
+      "C": "A method for compressing data to improve storage efficiency",
+      "D": "A parallel processing technique used in GPUs"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 102,
+    "question": "In the context of databases what is an index?",
+    "options": {
+      "A": "A data structure used to optimize search and retrieval operations",
+      "B": "A type of database query used for data manipulation",
+      "C": "A technique for securing sensitive data in a database",
+      "D": "A method for compressing data in a database to save storage space"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "technical_questions"
+    ],
+    "difficulty": "hard"
+  }
+]

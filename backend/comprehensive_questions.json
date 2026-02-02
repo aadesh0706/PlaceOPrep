@@ -1,0 +1,227 @@
+{
+  "questions": [
+    {
+      "title": "Two Sum",
+      "problem_id": "1",
+      "frontend_id": "1",
+      "difficulty": "Easy",
+      "problem_slug": "two-sum",
+      "topics": ["Array", "Hash Table"],
+      "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\nYou can return the answer in any order.",
+      "examples": [
+        {
+          "example_num": 1,
+          "example_text": "Input: nums = [2,7,11,15], target = 9\nOutput: [0,1]\nExplanation: Because nums[0] + nums[1] == 9, we return [0, 1].",
+          "images": []
+        }
+      ],
+      "constraints": ["2 <= nums.length <= 104", "-109 <= nums[i] <= 109"],
+      "follow_ups": [],
+      "hints": ["Use hash table for O(1) lookup"],
+      "code_snippets": {
+        "python": "def twoSum(nums, target):\n    pass",
+        "java": "public int[] twoSum(int[] nums, int target) {\n    return new int[]{};\n}",
+        "javascript": "var twoSum = function(nums, target) {\n    \n};"
+      }
+    },
+    {
+      "title": "Database Normalization",
+      "problem_id": "101",
+      "frontend_id": "101",
+      "difficulty": "Medium",
+      "problem_slug": "database-normalization",
+      "topics": ["DBMS", "Database Design"],
+      "description": "Explain the concept of database normalization and normalize the given table to 3NF.\n\nGiven table: Student(StudentID, Name, Course1, Course2, Course3, Instructor1, Instructor2, Instructor3)\n\nNormalize this table to eliminate redundancy and ensure data integrity.",
+      "examples": [
+        {
+          "example_num": 1,
+          "example_text": "Input: Unnormalized table with repeating groups\nOutput: Multiple normalized tables in 3NF\nExplanation: Break down into Student, Course, and Enrollment tables",
+          "images": []
+        }
+      ],
+      "constraints": ["Follow 1NF, 2NF, and 3NF rules", "Eliminate partial and transitive dependencies"],
+      "follow_ups": ["What is BCNF?", "When would you denormalize?"],
+      "hints": ["Identify functional dependencies", "Remove repeating groups first"],
+      "code_snippets": {
+        "sql": "-- Create normalized tables\nCREATE TABLE Students (\n    StudentID INT PRIMARY KEY,\n    Name VARCHAR(100)\n);\n\n-- Add more tables here"
+      }
+    },
+    {
+      "title": "Process Scheduling Algorithms",
+      "problem_id": "201",
+      "frontend_id": "201",
+      "difficulty": "Medium",
+      "problem_slug": "process-scheduling",
+      "topics": ["Operating Systems", "CPU Scheduling"],
+      "description": "Implement and compare different CPU scheduling algorithms: FCFS, SJF, Round Robin, and Priority Scheduling.\n\nGiven a set of processes with arrival times, burst times, and priorities, calculate average waiting time and turnaround time for each algorithm.",
+      "examples": [
+        {
+          "example_num": 1,
+          "example_text": "Input: Processes = [(P1, 0, 5, 3), (P2, 1, 3, 1), (P3, 2, 8, 2)]\nFormat: (ProcessID, ArrivalTime, BurstTime, Priority)\nOutput: Average waiting time and turnaround time for each algorithm",
+          "images": []
+        }
+      ],
+      "constraints": ["Handle process arrival times", "Consider context switching overhead"],
+      "follow_ups": ["Which algorithm is best for interactive systems?", "How does aging solve starvation?"],
+      "hints": ["Use queues for ready processes", "Track completion times"],
+      "code_snippets": {
+        "python": "def fcfs_scheduling(processes):\n    # Implement FCFS\n    pass\n\ndef sjf_scheduling(processes):\n    # Implement SJF\n    pass",
+        "java": "public class ProcessScheduler {\n    public void fcfsScheduling(Process[] processes) {\n        // Implement FCFS\n    }\n}"
+      }
+    },
+    {
+      "title": "TCP vs UDP",
+      "problem_id": "301",
+      "frontend_id": "301",
+      "difficulty": "Easy",
+      "problem_slug": "tcp-vs-udp",
+      "topics": ["Computer Networks", "Transport Layer"],
+      "description": "Compare TCP and UDP protocols. Explain when to use each protocol and implement a simple client-server communication using both.\n\nDiscuss the trade-offs between reliability and performance.",
+      "examples": [
+        {
+          "example_num": 1,
+          "example_text": "Scenario: Real-time video streaming\nQuestion: Which protocol would you choose and why?\nAnswer: UDP for low latency, accepting some packet loss",
+          "images": []
+        }
+      ],
+      "constraints": ["Consider network conditions", "Think about application requirements"],
+      "follow_ups": ["What is TCP handshake?", "How does UDP handle errors?"],
+      "hints": ["TCP is connection-oriented", "UDP is connectionless"],
+      "code_snippets": {
+        "python": "import socket\n\n# TCP Server\ndef tcp_server():\n    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n    # Implement TCP server\n    pass\n\n# UDP Server\ndef udp_server():\n    server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)\n    # Implement UDP server\n    pass"
+      }
+    },
+    {
+      "title": "Binary Search Tree Operations",
+      "problem_id": "401",
+      "frontend_id": "401",
+      "difficulty": "Medium",
+      "problem_slug": "bst-operations",
+      "topics": ["Trees", "Binary Search Tree"],
+      "description": "Implement a Binary Search Tree with insert, delete, search, and traversal operations.\n\nEnsure the BST property is maintained after each operation.",
+      "examples": [
+        {
+          "example_num": 1,
+          "example_text": "Input: Insert [5, 3, 7, 2, 4, 6, 8]\nOutput: BST with proper structure\nOperations: search(4) -> True, delete(3) -> restructure tree",
+          "images": []
+        }
+      ],
+      "constraints": ["Maintain BST property", "Handle edge cases like deleting root"],
+      "follow_ups": ["What about AVL trees?", "Time complexity analysis?"],
+      "hints": ["For deletion, consider three cases", "Use recursion for clean code"],
+      "code_snippets": {
+        "python": "class TreeNode:\n    def __init__(self, val=0):\n        self.val = val\n        self.left = None\n        self.right = None\n\nclass BST:\n    def __init__(self):\n        self.root = None\n    \n    def insert(self, val):\n        pass\n    \n    def delete(self, val):\n        pass\n    \n    def search(self, val):\n        pass"
+      }
+    },
+    {
+      "title": "SQL Query Optimization",
+      "problem_id": "501",
+      "frontend_id": "501",
+      "difficulty": "Hard",
+      "problem_slug": "sql-optimization",
+      "topics": ["DBMS", "Query Optimization"],
+      "description": "Given a slow-performing SQL query, identify performance bottlenecks and optimize it.\n\nConsider indexing strategies, query rewriting, and execution plan analysis.",
+      "examples": [
+        {
+          "example_num": 1,
+          "example_text": "Slow Query:\nSELECT * FROM orders o, customers c, products p \nWHERE o.customer_id = c.id AND o.product_id = p.id \nAND c.city = 'New York' AND p.price > 100\n\nOptimize this query for better performance.",
+          "images": []
+        }
+      ],
+      "constraints": ["Consider table sizes", "Think about index usage"],
+      "follow_ups": ["What are covering indexes?", "How does query planner work?"],
+      "hints": ["Use proper JOIN syntax", "Add appropriate indexes", "Filter early"],
+      "code_snippets": {
+        "sql": "-- Original slow query\nSELECT * FROM orders o, customers c, products p \nWHERE o.customer_id = c.id AND o.product_id = p.id \nAND c.city = 'New York' AND p.price > 100;\n\n-- Optimized query\n-- Your solution here"
+      }
+    },
+    {
+      "title": "Memory Management",
+      "problem_id": "601",
+      "frontend_id": "601",
+      "difficulty": "Hard",
+      "problem_slug": "memory-management",
+      "topics": ["Operating Systems", "Memory Management"],
+      "description": "Implement different memory allocation algorithms: First Fit, Best Fit, and Worst Fit.\n\nSimulate memory allocation and deallocation, handling fragmentation.",
+      "examples": [
+        {
+          "example_num": 1,
+          "example_text": "Memory blocks: [100, 500, 200, 300, 600]\nRequests: [212, 417, 112, 426]\nShow allocation for each algorithm and calculate fragmentation.",
+          "images": []
+        }
+      ],
+      "constraints": ["Handle memory fragmentation", "Track allocated and free blocks"],
+      "follow_ups": ["What is compaction?", "How does paging solve fragmentation?"],
+      "hints": ["Maintain free block list", "Consider coalescing adjacent free blocks"],
+      "code_snippets": {
+        "python": "class MemoryManager:\n    def __init__(self, total_memory):\n        self.memory_blocks = [(0, total_memory, 'free')]\n    \n    def first_fit(self, size):\n        pass\n    \n    def best_fit(self, size):\n        pass\n    \n    def worst_fit(self, size):\n        pass\n    \n    def deallocate(self, start_addr):\n        pass"
+      }
+    },
+    {
+      "title": "Network Routing Algorithms",
+      "problem_id": "701",
+      "frontend_id": "701",
+      "difficulty": "Hard",
+      "problem_slug": "network-routing",
+      "topics": ["Computer Networks", "Graph Algorithms"],
+      "description": "Implement Dijkstra's algorithm for shortest path routing in a network.\n\nGiven a network topology with link costs, find the shortest path between any two nodes.",
+      "examples": [
+        {
+          "example_num": 1,
+          "example_text": "Network: A-B(4), A-C(2), B-C(1), B-D(5), C-D(8), C-E(10), D-E(2)\nFind shortest path from A to E\nOutput: A -> C -> B -> D -> E with cost 10",
+          "images": []
+        }
+      ],
+      "constraints": ["Handle disconnected networks", "Consider link failures"],
+      "follow_ups": ["What about dynamic routing?", "How does OSPF work?"],
+      "hints": ["Use priority queue", "Update distances iteratively"],
+      "code_snippets": {
+        "python": "import heapq\nfrom collections import defaultdict\n\ndef dijkstra(graph, start, end):\n    # Implement Dijkstra's algorithm\n    distances = {node: float('inf') for node in graph}\n    distances[start] = 0\n    pq = [(0, start)]\n    \n    # Your implementation here\n    pass"
+      }
+    },
+    {
+      "title": "ACID Properties",
+      "problem_id": "801",
+      "frontend_id": "801",
+      "difficulty": "Medium",
+      "problem_slug": "acid-properties",
+      "topics": ["DBMS", "Transaction Management"],
+      "description": "Explain ACID properties with practical examples. Implement a simple transaction manager that ensures ACID compliance.\n\nDemonstrate how violations of each property can lead to data inconsistency.",
+      "examples": [
+        {
+          "example_num": 1,
+          "example_text": "Bank Transfer Transaction:\nBEGIN TRANSACTION\nUPDATE accounts SET balance = balance - 100 WHERE id = 1;\nUPDATE accounts SET balance = balance + 100 WHERE id = 2;\nCOMMIT;\n\nExplain how each ACID property applies.",
+          "images": []
+        }
+      ],
+      "constraints": ["Handle concurrent transactions", "Ensure data consistency"],
+      "follow_ups": ["What are isolation levels?", "How does 2PL work?"],
+      "hints": ["Atomicity: all or nothing", "Consistency: valid state transitions"],
+      "code_snippets": {
+        "python": "class TransactionManager:\n    def __init__(self):\n        self.transactions = {}\n        self.locks = {}\n    \n    def begin_transaction(self, tx_id):\n        pass\n    \n    def commit(self, tx_id):\n        pass\n    \n    def rollback(self, tx_id):\n        pass"
+      }
+    },
+    {
+      "title": "Deadlock Detection",
+      "problem_id": "901",
+      "frontend_id": "901",
+      "difficulty": "Hard",
+      "problem_slug": "deadlock-detection",
+      "topics": ["Operating Systems", "Concurrency"],
+      "description": "Implement deadlock detection using resource allocation graphs.\n\nGiven processes and their resource requests, detect if a deadlock exists and suggest resolution strategies.",
+      "examples": [
+        {
+          "example_num": 1,
+          "example_text": "Processes: P1, P2, P3\nResources: R1, R2, R3\nAllocations: P1->R1, P2->R2, P3->R3\nRequests: P1->R2, P2->R3, P3->R1\nResult: Deadlock detected (circular wait)",
+          "images": []
+        }
+      ],
+      "constraints": ["Handle multiple resource instances", "Consider prevention vs detection"],
+      "follow_ups": ["What is banker's algorithm?", "How to prevent deadlocks?"],
+      "hints": ["Build wait-for graph", "Detect cycles using DFS"],
+      "code_snippets": {
+        "python": "class DeadlockDetector:\n    def __init__(self):\n        self.allocation = {}\n        self.request = {}\n        self.available = {}\n    \n    def detect_deadlock(self):\n        # Build resource allocation graph\n        # Detect cycles\n        pass\n    \n    def find_cycle(self, graph):\n        # DFS to find cycles\n        pass"
+      }
+    }
+  ]
+}

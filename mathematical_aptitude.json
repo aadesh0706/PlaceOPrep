@@ -1,0 +1,2722 @@
+[
+  {
+    "question_no": 1,
+    "question": "There are two examination rooms A and B. If 10 students are sent from A to B, then the number of students in each room is the same. If 20 candidates are sent from B to A, then the number of students in A is double the number of students in B. The number of students in room A is:",
+    "options": {
+      "A": "20",
+      "B": "80",
+      "C": "100",
+      "D": "200"
+    },
+    "answer": "C",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 2,
+    "question": "The price of commodity X increases by 40 paise every year, while the price of commodity Y increases by 15 paise every year. If in 2001, the price of commodity X was Rs. 4.20 and that of Y was Rs. 6.30, in which year will commodity X cost 40 paise more than commodity Y?",
+    "options": {
+      "A": "2010",
+      "B": "2011",
+      "C": "2012",
+      "D": "2013"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 3,
+    "question": "If a - b = 3 and a\u00b2 + b\u00b2 = 29, find the value of ab.",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "18"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 4,
+    "question": "The salaries A, B, and C are in the ratio 2:3:5. If increments of 15%, 10%, and 20% are allowed in their salaries, then what will be the new ratio of their salaries?",
+    "options": {
+      "A": "03:03:10",
+      "B": "10:11:20",
+      "C": "0.981944444",
+      "D": "Cannot be determined"
+    },
+    "answer": "C",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 5,
+    "question": "A and B entered into a partnership with capitals in the ratio 4:5. After 3 months, A withdrew some capital and B withdrew some of his capital. The gain at the end of 10 months was Rs. 760. A's share in the profit is:",
+    "options": {
+      "A": "Rs. 330",
+      "B": "Rs. 360",
+      "C": "Rs. 380",
+      "D": "Rs. 430"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 6,
+    "question": "What is R's share of profit in a joint venture? I. Q started business investing Rs. 80,000. II. R joined him after 3 months. III. P joined after 4 months with a capital of Rs. 1,20,000 and got Rs. 6000 as his share profit.",
+    "options": {
+      "A": "All I, II, and III",
+      "B": "I and III only",
+      "C": "II and III only",
+      "D": "Even with all I, II, and III, the answer cannot be arrived at"
+    },
+    "answer": "D",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 7,
+    "question": "A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for Rs. 3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?",
+    "options": {
+      "A": "Rs. 375",
+      "B": "Rs. 400",
+      "C": "Rs. 600",
+      "D": "Rs. 800"
+    },
+    "answer": "B",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 8,
+    "question": "A goods train runs at the speed of 72 kmph and crosses a 250 m long platform in 26 seconds. What is the length of the goods train?",
+    "options": {
+      "A": "230 m",
+      "B": "240 m",
+      "C": "260 m",
+      "D": "270 m"
+    },
+    "answer": "D",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 9,
+    "question": "If log10 2 = 0.3010, then log2 10 is equal to:",
+    "options": {
+      "A": "699",
+      "B": "1000",
+      "C": "0.301",
+      "D": "0.699"
+    },
+    "answer": "B",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 10,
+    "question": "An error of 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area of the square is:",
+    "options": {
+      "A": "2%",
+      "B": "2.02%",
+      "C": "4%",
+      "D": "4.04%"
+    },
+    "answer": "D",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 11,
+    "question": "In a shower, 5 cm of rain falls. The volume of water that falls on 1.5 hectares of ground is:",
+    "options": {
+      "A": "75 cu. m",
+      "B": "750 cu. m",
+      "C": "7500 cu. m",
+      "D": "75000 cu. m"
+    },
+    "answer": "B",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 12,
+    "question": "What is the volume of a cube? I. The area of each face of the cube is 64 square metres. II. The length of one side of the cube is 8 metres.",
+    "options": {
+      "A": "I alone sufficient while II alone not sufficient",
+      "B": "II alone sufficient while I alone not sufficient",
+      "C": "Either I or II alone sufficient to answer",
+      "D": "Both I and II are not sufficient"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 13,
+    "question": "The reflex angle between the hands of a clock at 10:25 is:",
+    "options": {
+      "A": "180\u00ba",
+      "B": "192.5\u00ba",
+      "C": "195\u00ba",
+      "D": "197.5\u00ba"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 14,
+    "question": "At what time between 4 and 5 o'clock will the hands of a watch point in opposite directions?",
+    "options": {
+      "A": "45 min past 4",
+      "B": "40 min past 4",
+      "C": "50.4 min past 4",
+      "D": "54.6 min past 4"
+    },
+    "answer": "D",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 15,
+    "question": "A 12% stock yielding 10% is quoted at:",
+    "options": {
+      "A": "Rs. 83.33",
+      "B": "Rs. 110",
+      "C": "Rs. 112",
+      "D": "Rs. 120"
+    },
+    "answer": "D",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 16,
+    "question": "In how many different ways can the letters of the word 'DETAIL' be arranged in such a way that the vowels occupy only the odd positions?",
+    "options": {
+      "A": "32",
+      "B": "48",
+      "C": "36",
+      "D": "60"
+    },
+    "answer": "C",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 17,
+    "question": "An observer 1.6 m tall is 203 m away from a tower. The angle of elevation from his eye to the top of the tower is 30\u00ba. The height of the tower is:",
+    "options": {
+      "A": "21.6 m",
+      "B": "23.2 m",
+      "C": "24.72 m",
+      "D": "None of these"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 18,
+    "question": "Find the odd one out: 1, 4, 9, 16, 23, 25, 36",
+    "options": {
+      "A": "9",
+      "B": "23",
+      "C": "25",
+      "D": "36"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 19,
+    "question": "Let N be the greatest number that will divide 1305, 4665, and 6905, leaving the same remainder in each case. The sum of the digits in N is:",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 20,
+    "question": "The average weight of 8 persons increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person?",
+    "options": {
+      "A": "76 kg",
+      "B": "76.5 kg",
+      "C": "85 kg",
+      "D": "Data inadequate"
+    },
+    "answer": "C",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 21,
+    "question": "The difference between a two-digit number and the number obtained by interchanging the digits is 36. What is the difference between the sum and the difference of the digits of the number if the ratio between the digits of the number is 1:2?",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "16",
+      "D": "None of these"
+    },
+    "answer": "B",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 22,
+    "question": "The sum of the present ages of a father and his son is 60 years. Six years ago, the father's age was five times the son's age. After 6 years, the son's age will be:",
+    "options": {
+      "A": "12 years",
+      "B": "14 years",
+      "C": "18 years",
+      "D": "20 years"
+    },
+    "answer": "D",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 23,
+    "question": "Three candidates contested an election and received 1136, 7636, and 11628 votes, respectively. What percentage of the total votes did the winning candidate get?",
+    "options": {
+      "A": "57%",
+      "B": "60%",
+      "C": "65%",
+      "D": "90%"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 24,
+    "question": "In a certain store, the profit is 320% of the cost. If the cost increases by 25% but the selling price remains constant, approximately what percentage of the selling price is the profit?",
+    "options": {
+      "A": "30%",
+      "B": "70%",
+      "C": "100%",
+      "D": "250%"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 25,
+    "question": "If the cost of x meters of wire is d rupees, then what is the cost of y meters of wire at the same rate?",
+    "options": {
+      "A": "Rs. (xy/d)",
+      "B": "Rs. (xd)",
+      "C": "Rs. (yd)",
+      "D": "Rs. (yd/x)"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 26,
+    "question": "A flagstaff 17.5 m high casts a shadow of length 40.25 m. The height of a building, which casts a shadow of length 28.75 m under similar conditions, will be:",
+    "options": {
+      "A": "10 m",
+      "B": "12.5 m",
+      "C": "17.5 m",
+      "D": "21.25 m"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 27,
+    "question": "In how many days can 10 women finish a work? I. 10 men can complete the work in 6 days. II. 10 men and 10 women together can complete the work in 3 3/7 days. III. If 10 men work for 3 days and then 10 women replace them, the remaining work is completed in 4 days.",
+    "options": {
+      "A": "Any two of the three",
+      "B": "I and II only",
+      "C": "II and III only",
+      "D": "I and III only"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 28,
+    "question": "8 men and 14 women are working together in a field. After 3 days, 5 men and 8 women leave. How many more days will be required to complete the work? I. 19 men and 12 women together can complete the work in 18 days. II. 16 men can complete two-thirds of the work in 16 days. III. In 1 day, the work done by three men is equal to the work done by four women.",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "III only",
+      "D": "I, II, or III"
+    },
+    "answer": "D",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 29,
+    "question": "A towel, when bleached, was found to have lost 20% of its length and 10% of its breadth. The percentage decrease in area is:",
+    "options": {
+      "A": "10%",
+      "B": "10.08%",
+      "C": "20%",
+      "D": "28%"
+    },
+    "answer": "D",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 30,
+    "question": "What is the capacity of a cylindrical tank? I. Radius of the base is half of its height which is 28 metres. II. Area of the base is 616 sq. metres and its height is 28 metres.",
+    "options": {
+      "A": "I alone sufficient while II alone not sufficient",
+      "B": "II alone sufficient while I alone not sufficient",
+      "C": "Either I or II alone sufficient to answer",
+      "D": "Both I and II are not sufficient"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 31,
+    "question": "In a 100 m race, A covers the distance in 36 seconds and B in 45 seconds. In this race, A beats B by:",
+    "options": {
+      "A": "20 m",
+      "B": "25 m",
+      "C": "22.5 m",
+      "D": "9 m"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 32,
+    "question": "A 6% stock yields 8%. The market value of the stock is:",
+    "options": {
+      "A": "Rs. 48",
+      "B": "Rs. 75",
+      "C": "Rs. 96",
+      "D": "Rs. 133.33"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 33,
+    "question": "A box contains 2 white balls, 3 black balls, and 4 red balls. In how many ways can 3 balls be drawn from the box, if at least one black ball is to be included in the draw?",
+    "options": {
+      "A": "32",
+      "B": "48",
+      "C": "64",
+      "D": "96"
+    },
+    "answer": "C",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 34,
+    "question": "If Rs. 10 is allowed as true discount on a bill of Rs. 110 due at the end of a certain time, then the discount allowed on the same sum due at the end of double the time is:",
+    "options": {
+      "A": "Rs. 20",
+      "B": "Rs. 21.81",
+      "C": "Rs. 22",
+      "D": "Rs. 18.33"
+    },
+    "answer": "D",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 35,
+    "question": "10, 14, 16, 18, 21, 24, 26 \u2013 find the odd one out.",
+    "options": {
+      "A": "26",
+      "B": "24",
+      "C": "21",
+      "D": "18"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 36,
+    "question": "835, 734, 642, 751, 853, 981, 532 \u2013 find the odd one out.",
+    "options": {
+      "A": "751",
+      "B": "853",
+      "C": "981",
+      "D": "532"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 37,
+    "question": "1, 2, 6, 15, 31, 56, 91 \u2013 find the wrong number in the sequence.",
+    "options": {
+      "A": "31",
+      "B": "91",
+      "C": "56",
+      "D": "15"
+    },
+    "answer": "B",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 38,
+    "question": "7, 26, 63, 124, 215, 342 \u2013 find the next number in the series.",
+    "options": {
+      "A": "481",
+      "B": "511",
+      "C": "391",
+      "D": "421"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 39,
+    "question": "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:",
+    "options": {
+      "A": "1:3",
+      "B": "3:2",
+      "C": "3:4",
+      "D": "None of these"
+    },
+    "answer": "B",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 40,
+    "question": "A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr, and the other at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train if both the persons are walking in the same direction as the train?",
+    "options": {
+      "A": "66 km/hr",
+      "B": "72 km/hr",
+      "C": "78 km/hr",
+      "D": "81 km/hr"
+    },
+    "answer": "D",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 41,
+    "question": "A runs 1.5 times as fast as B. If A gives B a start of 80 m, how far must the winning post be so that A and B might reach it at the same time?",
+    "options": {
+      "A": "200 m",
+      "B": "300 m",
+      "C": "270 m",
+      "D": "160 m"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 42,
+    "question": "Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years, what is definitely the difference between R and Q's age?",
+    "options": {
+      "A": "1 year",
+      "B": "2 years",
+      "C": "25 years",
+      "D": "Data inadequate"
+    },
+    "answer": "D",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 43,
+    "question": "The value of log2 16 is:",
+    "options": {
+      "A": "1/8",
+      "B": "4",
+      "C": "8",
+      "D": "16"
+    },
+    "answer": "B",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 44,
+    "question": "In a two-digit number, it is known that its unit\u2019s digit exceeds its ten\u2019s digit by 2 and that the product of the given number and the sum of its digits is equal to 144. The number is:",
+    "options": {
+      "A": "24",
+      "B": "26",
+      "C": "42",
+      "D": "46"
+    },
+    "answer": "A",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 45,
+    "question": "The square root of 64009 is:",
+    "options": {
+      "A": "253",
+      "B": "347",
+      "C": "363",
+      "D": "803"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 46,
+    "question": "What should come in place of both 'x' in the equation x/128 = 162/x?",
+    "options": {
+      "A": "12",
+      "B": "14",
+      "C": "144",
+      "D": "196"
+    },
+    "answer": "A",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 47,
+    "question": "A, B, and C can do a piece of work in 20, 30, and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?",
+    "options": {
+      "A": "12 days",
+      "B": "15 days",
+      "C": "16 days",
+      "D": "18 days"
+    },
+    "answer": "B",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 48,
+    "question": "The value of 489.1375 \u00d7 0.0483 \u00d7 1.956 is closest to:",
+    "options": {
+      "A": "0.006",
+      "B": "0.06",
+      "C": "0.6",
+      "D": "6"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 49,
+    "question": "Three numbers are in the ratio of 3:4:5, and their LCM is 2400. Their HCF is:",
+    "options": {
+      "A": "40",
+      "B": "80",
+      "C": "120",
+      "D": "200"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 50,
+    "question": "Which of the following fractions is the largest?",
+    "options": {
+      "A": "7/8",
+      "B": "13/16",
+      "C": "31/40",
+      "D": "63/80"
+    },
+    "answer": "A",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 51,
+    "question": "A sum of Rs. 725 is lent at the beginning of a year at a certain rate of interest. After 8 months, a sum of Rs. 362.50 more is lent, but at double the previous rate. At the end of the year, Rs. 33.50 is earned as interest from both loans. What was the original rate of interest?",
+    "options": {
+      "A": "3.60%",
+      "B": "4.50%",
+      "C": "5%",
+      "D": "None of these"
+    },
+    "answer": "D",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 52,
+    "question": "An accurate clock shows 8 o'clock in the morning. Through how many degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?",
+    "options": {
+      "A": "144\u00ba",
+      "B": "150\u00ba",
+      "C": "168\u00ba",
+      "D": "180\u00ba"
+    },
+    "answer": "D",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 53,
+    "question": "From a group of 7 men and 6 women, five persons are to be selected to form a committee so that at least 3 men are on the committee. In how many ways can it be done?",
+    "options": {
+      "A": "564",
+      "B": "645",
+      "C": "735",
+      "D": "756"
+    },
+    "answer": "D",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 54,
+    "question": "A dishonest milkman professes to sell his milk at cost price but he mixes it with water and thereby gains 25%. The percentage of water in the mixture is:",
+    "options": {
+      "A": "4%",
+      "B": "6%",
+      "C": "20%",
+      "D": "25%"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 55,
+    "question": "A vessel is filled with liquid, 3 parts of which are water and 5 parts syrup. How much of the mixture must be drawn off and replaced with water so that the mixture may be half water and half syrup?",
+    "options": {
+      "A": "1/3",
+      "B": "1/4",
+      "C": "1/5",
+      "D": "1/6"
+    },
+    "answer": "C",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 56,
+    "question": "The cost price of Rs. 100 stock at 4% discount, when brokerage is 1/4%, is:",
+    "options": {
+      "A": "Rs. 95.75",
+      "B": "Rs. 96",
+      "C": "Rs. 96.25",
+      "D": "Rs. 104.25"
+    },
+    "answer": "C",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 57,
+    "question": "If 40% of a number is equal to two-third of another number, what is the ratio of the first number to the second number?",
+    "options": {
+      "A": "02:05",
+      "B": "03:07",
+      "C": "05:03",
+      "D": "07:03"
+    },
+    "answer": "C",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 58,
+    "question": "In a bag, there are coins of 25 p, 10 p, and 5 p in the ratio of 1 : 2 : 3. If there is Rs. 30 in all, how many 5 p coins are there?",
+    "options": {
+      "A": "50",
+      "B": "100",
+      "C": "150",
+      "D": "200"
+    },
+    "answer": "C",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 59,
+    "question": "A man takes loan from a bank at 12% p.a. simple interest. After 3 years, he paid Rs. 5400 as interest. What was the principal amount?",
+    "options": {
+      "A": "Rs. 2000",
+      "B": "Rs. 10,000",
+      "C": "Rs. 15,000",
+      "D": "Rs. 20,000"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 60,
+    "question": "A flagstaff 17.5 m high casts a shadow 40.25 m long. What is the height of a building that casts a shadow 28.75 m long under similar conditions?",
+    "options": {
+      "A": "10 m",
+      "B": "12.5 m",
+      "C": "17.5 m",
+      "D": "21.25 m"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 61,
+    "question": "The reflex angle between the hands of a clock at 10:25 is:",
+    "options": {
+      "A": "180\u00ba",
+      "B": "192 \u00bd\u00ba",
+      "C": "195\u00ba",
+      "D": "197 \u00bd\u00ba"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 62,
+    "question": "The diagonal of a rectangle is 41 cm, and its area is 20 cm\u00b2. What is the perimeter of the rectangle?",
+    "options": {
+      "A": "9 cm",
+      "B": "18 cm",
+      "C": "20 cm",
+      "D": "41 cm"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 63,
+    "question": "A, B, and C can complete a task in 24, 6, and 12 days respectively. How many days will they take to finish the task if working together?",
+    "options": {
+      "A": "1 day",
+      "B": "7/24 day",
+      "C": "3 3/7 days",
+      "D": "4 days"
+    },
+    "answer": "C",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 64,
+    "question": "A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr, and the other one at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train?",
+    "options": {
+      "A": "66 km/hr",
+      "B": "72 km/hr",
+      "C": "78 km/hr",
+      "D": "81 km/hr"
+    },
+    "answer": "D",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 65,
+    "question": "A train of 240 meters long passes a pole in 24 seconds. How long will it take to pass a platform 650 meters long?",
+    "options": {
+      "A": "65 sec",
+      "B": "89 sec",
+      "C": "100 sec",
+      "D": "150 sec"
+    },
+    "answer": "B",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 66,
+    "question": "How many seconds will a 500-meter-long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?",
+    "options": {
+      "A": "25 sec",
+      "B": "30 sec",
+      "C": "40 sec",
+      "D": "45 sec"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 67,
+    "question": "In a 500 m race, the ratio of the speeds of two contestants A and B is 3 : 4. A has a start of 140 m. Then, A wins by:",
+    "options": {
+      "A": "60 m",
+      "B": "40 m",
+      "C": "20 m",
+      "D": "10 m"
+    },
+    "answer": "C",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 68,
+    "question": "A boatman goes 2 km against the current of the stream in 1 hour and goes 1 km along the current in 10 minutes. How long will it take to go 5 km in stationary water?",
+    "options": {
+      "A": "40 minutes",
+      "B": "1 hour",
+      "C": "1 hr 15 min",
+      "D": "1 hr 30 min"
+    },
+    "answer": "C",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 69,
+    "question": "Two goods trains each 500 m long are running in opposite directions on parallel tracks at 45 km/hr and 30 km/hr, respectively. The time taken by the slower train to pass the driver of the faster one is:",
+    "options": {
+      "A": "12 sec",
+      "B": "24 sec",
+      "C": "48 sec",
+      "D": "60 sec"
+    },
+    "answer": "B",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 70,
+    "question": "A man sells two buffaloes for Rs. 7,820 each. On one he gains 15% and on the other, he loses 15%. His total gain or loss in the transaction is",
+    "options": {
+      "A": "2.5% gain",
+      "B": "2.25% loss",
+      "C": "2% loss",
+      "D": "5% loss"
+    },
+    "answer": "B",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 71,
+    "question": "One ship goes along the stream direction 28 km and in opposite direction 13 km in 5 hrs for each direction. What is the velocity of the stream?",
+    "options": {
+      "A": "1.5 kmph",
+      "B": "2.5 kmph",
+      "C": "1.8 kmph",
+      "D": "2 kmph"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 72,
+    "question": "Which one of the words given below is different from others?",
+    "options": {
+      "A": "Orange",
+      "B": "Grape",
+      "C": "Apricot",
+      "D": "Raspberry"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 73,
+    "question": "Complete the series: 5, 20, 24, 6, 2, 8, ?",
+    "options": {
+      "A": "12",
+      "B": "32",
+      "C": "34",
+      "D": "36"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 74,
+    "question": "A can have a piece of work done in 8 days, B can work three times faster than A, C can work five times faster than A. How many days will they take to do the work together?",
+    "options": {
+      "A": "3 days",
+      "B": "8/9 days",
+      "C": "4 days",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 75,
+    "question": "A sum of Rs. 427 is to be divided among A, B, and C in such a way that 3 times A's share, 4 times B's share, and 7 times C's share are all equal. The share of C is",
+    "options": {
+      "A": "Rs. 84",
+      "B": "Rs. 76",
+      "C": "Rs. 98",
+      "D": "Rs. 34"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 76,
+    "question": "In a race of 200 m, A can beat B by 31 m and C by 18 m. In a race of 350 m, C will beat B by",
+    "options": {
+      "A": "22.75 m",
+      "B": "25 m",
+      "C": "19.5 m",
+      "D": "7"
+    },
+    "answer": "A",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 77,
+    "question": "A man took a loan from a bank at the rate of 12% p.a. simple interest. After 3 years, he had to pay Rs. 5400 as interest only for the period. The principal amount borrowed by him was",
+    "options": {
+      "A": "Rs. 2000",
+      "B": "Rs. 10,000",
+      "C": "Rs. 15,000",
+      "D": "Rs. 20,000"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 78,
+    "question": "A man walked diagonally across a square lot. Approximately, what was the percent saved by not walking along the edges?",
+    "options": {
+      "A": "20%",
+      "B": "24%",
+      "C": "30%",
+      "D": "33%"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 79,
+    "question": "How much time will the leak take to empty the full cistern? (I. The cistern is normally filled in 9 hours. II. It takes one hour more than usual to fill the cistern because of the leak.)",
+    "options": {
+      "A": "I alone sufficient",
+      "B": "II alone sufficient",
+      "C": "Either I or II alone",
+      "D": "Both I and II are necessary"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 80,
+    "question": "A metallic sheet is of rectangular shape with dimensions 48 m x 36 m. From each of its corners, a square is cut off to make an open box. If the length of the square is 8 m, the volume of the box is:",
+    "options": {
+      "A": "4830 m\u00b3",
+      "B": "5120 m\u00b3",
+      "C": "6420 m\u00b3",
+      "D": "8960 m\u00b3"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 81,
+    "question": "The reflex angle between the hands of a clock at 10:25 is:",
+    "options": {
+      "A": "180\u00ba",
+      "B": "192.5\u00ba",
+      "C": "195\u00ba",
+      "D": "197.5\u00ba"
+    },
+    "answer": "D",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 82,
+    "question": "The cost price of Rs. 100 stock at 4% discount, when brokerage is 1/4%, is:",
+    "options": {
+      "A": "Rs. 96",
+      "B": "Rs. 96.25",
+      "C": "Rs. 96.50",
+      "D": "Rs. 97"
+    },
+    "answer": "C",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 83,
+    "question": "Three candidates contested an election and received 1136, 7636, and 11628 votes respectively. What percentage of the total votes did the winning candidate get?",
+    "options": {
+      "A": "57%",
+      "B": "60%",
+      "C": "65%",
+      "D": "90%"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 84,
+    "question": "A man buys a watch for Rs. 1950 in cash and sells it for Rs. 2200 at a credit of 1 year. If the rate of interest is 10% per annum, the man:",
+    "options": {
+      "A": "gains Rs. 55",
+      "B": "gains Rs. 50",
+      "C": "loses Rs. 30",
+      "D": "gains Rs. 30"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 85,
+    "question": "An error of 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area is:",
+    "options": {
+      "A": "2%",
+      "B": "2.02%",
+      "C": "4%",
+      "D": "4.04%"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 86,
+    "question": "In a shower, 5 cm of rain falls. The volume of water that falls on 1.5 hectares of ground is:",
+    "options": {
+      "A": "75 cu. m",
+      "B": "750 cu. m",
+      "C": "7500 cu. m",
+      "D": "75000 cu. m"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 87,
+    "question": "The ratio between the length and breadth of a rectangular park is 3:2. If a man cycling along the boundary at 12 km/hr completes one round in 8 minutes, the area of the park is:",
+    "options": {
+      "A": "15360 sq. m",
+      "B": "153600 sq. m",
+      "C": "30720 sq. m",
+      "D": "307200 sq. m"
+    },
+    "answer": "B",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 88,
+    "question": "The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface:",
+    "options": {
+      "A": "30 m\u00b2",
+      "B": "40 m\u00b2",
+      "C": "60 m\u00b2",
+      "D": "80 m\u00b2"
+    },
+    "answer": "C",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 89,
+    "question": "If 40% of a number is equal to two-third of another number, what is the ratio of the first number to the second number?",
+    "options": {
+      "A": "02:05",
+      "B": "03:07",
+      "C": "05:03",
+      "D": "07:03"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 90,
+    "question": "In a bag, there are coins of 25 p, 10 p, and 5 p in the ratio of 1 : 2 : 3. If there is Rs. 30 in all, how many 5 p coins are there?",
+    "options": {
+      "A": "50",
+      "B": "100",
+      "C": "150",
+      "D": "200"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 91,
+    "question": "A man takes loan from a bank at 12% p.a. simple interest. After 3 years, he paid Rs. 5400 as interest. What was the principal amount?",
+    "options": {
+      "A": "Rs. 2000",
+      "B": "Rs. 10,000",
+      "C": "Rs. 15,000",
+      "D": "Rs. 20,000"
+    },
+    "answer": "C",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 92,
+    "question": "A flagstaff 17.5 m high casts a shadow 40.25 m long. What is the height of a building that casts a shadow 28.75 m long under similar conditions?",
+    "options": {
+      "A": "10 m",
+      "B": "12.5 m",
+      "C": "17.5 m",
+      "D": "21.25 m"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 93,
+    "question": "The reflex angle between the hands of a clock at 10:25 is:",
+    "options": {
+      "A": "180\u00ba",
+      "B": "192.5\u00ba",
+      "C": "195\u00ba",
+      "D": "197.5\u00ba"
+    },
+    "answer": "D",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 94,
+    "question": "The diagonal of a rectangle is 41 cm, and its area is 20 cm\u00b2. What is the perimeter of the rectangle?",
+    "options": {
+      "A": "9 cm",
+      "B": "18 cm",
+      "C": "20 cm",
+      "D": "41 cm"
+    },
+    "answer": "B",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 95,
+    "question": "A, B, and C can complete a task in 24, 6, and 12 days respectively. How many days will they take to finish the task if working together?",
+    "options": {
+      "A": "1 day",
+      "B": "7/24 day",
+      "C": "3 3/7 days",
+      "D": "4 days"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 96,
+    "question": "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively, and they cross each other in 23 seconds. The ratio of their speeds is:",
+    "options": {
+      "A": "1:3",
+      "B": "3:2",
+      "C": "3:4",
+      "D": "None of these"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 97,
+    "question": "A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr, and the other one at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train?",
+    "options": {
+      "A": "66 km/hr",
+      "B": "72 km/hr",
+      "C": "78 km/hr",
+      "D": "81 km/hr"
+    },
+    "answer": "D",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 98,
+    "question": "A train of 240 meters long passes a pole in 24 seconds. How long will it take to pass a platform 650 meters long?",
+    "options": {
+      "A": "65 sec",
+      "B": "89 sec",
+      "C": "100 sec",
+      "D": "150 sec"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 99,
+    "question": "How many seconds will a 500-meter-long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?",
+    "options": {
+      "A": "25 sec",
+      "B": "30 sec",
+      "C": "40 sec",
+      "D": "45 sec"
+    },
+    "answer": "B",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 100,
+    "question": "In a 500 m race, the ratio of the speeds of two contestants A and B is 3 : 4. A has a start of 140 m. Then, A wins by:",
+    "options": {
+      "A": "60 m",
+      "B": "40 m",
+      "C": "20 m",
+      "D": "10 m"
+    },
+    "answer": "C",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 101,
+    "question": "A boatman goes 2 km against the current of the stream in 1 hour and goes 1 km along the current in 10 minutes. How long will it take to go 5 km in stationary water?",
+    "options": {
+      "A": "40 minutes",
+      "B": "1 hour",
+      "C": "1 hr 15 min",
+      "D": "1 hr 30 min"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 102,
+    "question": "Two goods trains each 500 m long are running in opposite directions on parallel tracks at 45 km/hr and 30 km/hr, respectively. The time taken by the slower train to pass the driver of the faster one is:",
+    "options": {
+      "A": "12 sec",
+      "B": "24 sec",
+      "C": "48 sec",
+      "D": "60 sec"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 103,
+    "question": "A man sells two buffaloes for Rs. 7,820 each. On one he gains 15% and on the other, he loses 15%. His total gain or loss in the transaction is:",
+    "options": {
+      "A": "2.5% gain",
+      "B": "2.25% loss",
+      "C": "2% loss",
+      "D": "5% loss"
+    },
+    "answer": "B",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 104,
+    "question": "A metallic sheet is of rectangular shape with dimensions 48 m x 36 m. From each of its corners, a square is cut off to make an open box. If the length of the square is 8 m, the volume of the box is:",
+    "options": {
+      "A": "4830 m\u00b3",
+      "B": "5120 m\u00b3",
+      "C": "6420 m\u00b3",
+      "D": "8960 m\u00b3"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 105,
+    "question": "The cost price of Rs. 100 stock at 4% discount, when brokerage is 1/4%, is:",
+    "options": {
+      "A": "Rs. 96",
+      "B": "Rs. 96.25",
+      "C": "Rs. 96.50",
+      "D": "Rs. 97"
+    },
+    "answer": "C",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 106,
+    "question": "Three candidates contested an election and received 1136, 7636, and 11628 votes respectively. What percentage of the total votes did the winning candidate get?",
+    "options": {
+      "A": "57%",
+      "B": "60%",
+      "C": "65%",
+      "D": "90%"
+    },
+    "answer": "A",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 107,
+    "question": "A man buys a watch for Rs. 1950 in cash and sells it for Rs. 2200 at a credit of 1 year. If the rate of interest is 10% per annum, the man:",
+    "options": {
+      "A": "gains Rs. 55",
+      "B": "gains Rs. 50",
+      "C": "loses Rs. 30",
+      "D": "gains Rs. 30"
+    },
+    "answer": "B",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 108,
+    "question": "An error of 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area is:",
+    "options": {
+      "A": "2%",
+      "B": "2.02%",
+      "C": "4%",
+      "D": "4.04%"
+    },
+    "answer": "D",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 109,
+    "question": "In a shower, 5 cm of rain falls. The volume of water that falls on 1.5 hectares of ground is:",
+    "options": {
+      "A": "75 cu. m",
+      "B": "750 cu. m",
+      "C": "7500 cu. m",
+      "D": "75000 cu. m"
+    },
+    "answer": "B",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 110,
+    "question": "The ratio between the length and breadth of a rectangular park is 3:2. If a man cycling along the boundary at 12 km/hr completes one round in 8 minutes, the area of the park is:",
+    "options": {
+      "A": "15360 sq. m",
+      "B": "153600 sq. m",
+      "C": "30720 sq. m",
+      "D": "307200 sq. m"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 111,
+    "question": "The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface:",
+    "options": {
+      "A": "30 m\u00b2",
+      "B": "40 m\u00b2",
+      "C": "60 m\u00b2",
+      "D": "80 m\u00b2"
+    },
+    "answer": "C",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 112,
+    "question": "A man wants to sell his scooter. There are two offers, one at Rs. 12,000 cash and the other a credit of Rs. 12,880 to be paid after 8 months, money being at 18% per annum. Which is the better offer?",
+    "options": {
+      "A": "Rs. 12,000 in cash",
+      "B": "Rs. 12,880 at credit",
+      "C": "Both are equally good",
+      "D": "NIL"
+    },
+    "answer": "A",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 113,
+    "question": "A man standing at a point P is watching the top of a tower, which makes an angle of elevation of 30\u00ba with the man's eye. The man walks some distance towards the tower to watch its top and the angle of the elevation becomes 60\u00ba. What is the distance between the base of the tower and the point P?",
+    "options": {
+      "A": "43 units",
+      "B": "8 units",
+      "C": "12 units",
+      "D": "Data inadequate"
+    },
+    "answer": "D",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 114,
+    "question": "In how many different ways can the letters of the word 'DETAIL' be arranged in such a way that the vowels occupy only the odd positions?",
+    "options": {
+      "A": "32",
+      "B": "48",
+      "C": "36",
+      "D": "60"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 115,
+    "question": "Two dice are tossed. The probability that the total score is a prime number is:",
+    "options": {
+      "A": "1",
+      "B": "5/12",
+      "C": "1/2",
+      "D": "7/9"
+    },
+    "answer": "B",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 116,
+    "question": "An observer 1.6 m tall is 203 m away from a tower. The angle of elevation from his eye to the top of the tower is 30\u00ba. The height of the tower is:",
+    "options": {
+      "A": "21.6 m",
+      "B": "23.2 m",
+      "C": "24.72 m",
+      "D": "None of these"
+    },
+    "answer": "A",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 117,
+    "question": "The cost price of a Rs. 100 stock at 4% discount, when brokerage is 1/4%, is:",
+    "options": {
+      "A": "Rs. 95.75",
+      "B": "Rs. 96",
+      "C": "Rs. 96.25",
+      "D": "Rs. 104.25"
+    },
+    "answer": "C",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 118,
+    "question": "If 40% of a number is equal to two-thirds of another number, what is the ratio of the first number to the second number?",
+    "options": {
+      "A": "2:5",
+      "B": "3:7",
+      "C": "5:3",
+      "D": "7:3"
+    },
+    "answer": "C",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 119,
+    "question": "In a bag, there are coins of 25 p, 10 p, and 5 p in the ratio of 1:2:3. If there is Rs. 30 in all, how many 5 p coins are there?",
+    "options": {
+      "A": "50",
+      "B": "100",
+      "C": "150",
+      "D": "200"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 120,
+    "question": "A fires 5 shots to B's 3, but A kills only once in 3 shots while B kills once in 2 shots. When B has missed 27 times, A has killed:",
+    "options": {
+      "A": "30 birds",
+      "B": "60 birds",
+      "C": "72 birds",
+      "D": "90 birds"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 121,
+    "question": "A train covers a certain distance at a speed of 300 km/hr, and the same distance at 200 km/hr. Find the average speed of the train:",
+    "options": {
+      "A": "240 km/hr",
+      "B": "225 km/hr",
+      "C": "250 km/hr",
+      "D": "275 km/hr"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 122,
+    "question": "Two students appeared at an examination. One of them secured 9 marks more than the other, and his marks were 56% of the sum of their marks. What are the marks obtained by them?",
+    "options": {
+      "A": "42, 33",
+      "B": "42, 36",
+      "C": "44, 33",
+      "D": "44, 36"
+    },
+    "answer": "A",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 123,
+    "question": "Two trains are running in opposite directions at 60 km/hr and 90 km/hr. If the length of each train is 500 m, how long will it take for the trains to cross each other?",
+    "options": {
+      "A": "20 sec",
+      "B": "25 sec",
+      "C": "30 sec",
+      "D": "35 sec"
+    },
+    "answer": "A",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 124,
+    "question": "A certain amount earns simple interest of Rs. 1200 after 10 years. Had the interest been 2% more, how much more interest would it have earned?",
+    "options": {
+      "A": "Rs. 25",
+      "B": "None of these",
+      "C": "Rs. 120",
+      "D": "Cannot be determined"
+    },
+    "answer": "C",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 125,
+    "question": "A man took a loan from a bank at the rate of 8% p.a. simple interest. After 4 years he had to pay Rs. 6200 as interest only for the period. The principal amount borrowed by him was:",
+    "options": {
+      "A": "Rs. 17322",
+      "B": "Rs. 20245",
+      "C": "Rs. 18230",
+      "D": "Rs. 19375"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 126,
+    "question": "A and B can do a piece of work in 45 days and 40 days, respectively. They began to work together, but A leaves after some days and B completes the remaining work in 23 days. After how many days did A leave?",
+    "options": {
+      "A": "9",
+      "B": "11",
+      "C": "12",
+      "D": "15"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 127,
+    "question": "The sum of ages of 5 children born at intervals of 3 years each is 50 years. What is the age of the youngest child?",
+    "options": {
+      "A": "4 years",
+      "B": "8 years",
+      "C": "10 years",
+      "D": "None of these"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 128,
+    "question": "A father said to his son, \"I was as old as you are at the present at the time of your birth\". If the father's age is 38 years now, the son's age five years back was:",
+    "options": {
+      "A": "14 years",
+      "B": "19 years",
+      "C": "33 years",
+      "D": "38 years"
+    },
+    "answer": "A",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 129,
+    "question": "A sum of Rs. 1360 has been divided among A, B, and C such that A gets 1/2 of what B gets, and B gets 1/3 of what C gets. B's share is:",
+    "options": {
+      "A": "Rs. 120",
+      "B": "Rs. 160",
+      "C": "Rs. 240",
+      "D": "Rs. 300"
+    },
+    "answer": "C",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 130,
+    "question": "A man can swim downstream at 6 km/hr and upstream at 2 km/hr. His speed in still water is:",
+    "options": {
+      "A": "4 km/hr",
+      "B": "2 km/hr",
+      "C": "6 km/hr",
+      "D": "1 km/hr"
+    },
+    "answer": "A",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 131,
+    "question": "Robert is traveling on his cycle and has calculated to reach point A at 2 P.M. if he travels at 10 kmph, he will reach there at 12 noon if he travels at 15 kmph. At what speed must he travel to reach A at 1 P.M.?",
+    "options": {
+      "A": "8 kmph",
+      "B": "11 kmph",
+      "C": "12 kmph",
+      "D": "14 kmph"
+    },
+    "answer": "C",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 132,
+    "question": "A man rows to a place 48 km distant and comes back in 14 hours. He finds that he can row 4 km with the stream in the same time as 3 km against the stream. The rate of the stream is:",
+    "options": {
+      "A": "1 km/hr",
+      "B": "1.5 km/hr",
+      "C": "2 km/hr",
+      "D": "2.5 km/hr"
+    },
+    "answer": "A",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 133,
+    "question": "In what ratio must a grocer mix two varieties of pulses costing Rs. 15 and Rs. 20 per kg respectively so as to get a mixture worth Rs. 16.50 per kg?",
+    "options": {
+      "A": "3:7",
+      "B": "5:7",
+      "C": "7:3",
+      "D": "7:5"
+    },
+    "answer": "C",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 134,
+    "question": "A, B, and C can do a piece of work in 20, 30, and 60 days, respectively. In how many days can A do the work if he is assisted by B and C on every third day?",
+    "options": {
+      "A": "12 days",
+      "B": "15 days",
+      "C": "16 days",
+      "D": "18 days"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 135,
+    "question": "Two trains are running at 40 km/hr and 20 km/hr respectively in the same direction. The fast train completely passes a man sitting in the slower train in 5 seconds. What is the length of the fast train?",
+    "options": {
+      "A": "23 m",
+      "B": "27 m",
+      "C": "29 m",
+      "D": "50 m"
+    },
+    "answer": "B",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 136,
+    "question": "A train moves past a telegraph post and a bridge 264 m long in 8 seconds and 20 seconds respectively. What is the speed of the train?",
+    "options": {
+      "A": "69.5 km/hr",
+      "B": "70 km/hr",
+      "C": "79 km/hr",
+      "D": "79.2 km/hr"
+    },
+    "answer": "D",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 137,
+    "question": "How many seconds will a 500-meter long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?",
+    "options": {
+      "A": "25",
+      "B": "30",
+      "C": "40",
+      "D": "45"
+    },
+    "answer": "B",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 138,
+    "question": "The salaries of A, B, and C are in the ratio 2 : 3 : 5. If increments of 15%, 10%, and 20% are allowed respectively in their salaries, what will be the new ratio of their salaries?",
+    "options": {
+      "A": "3:3:10",
+      "B": "10:11:20",
+      "C": "23:33:60",
+      "D": "Cannot be determined"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 139,
+    "question": "The sum of ages of 5 children born at intervals of 3 years each is 50 years. What is the age of the youngest child?",
+    "options": {
+      "A": "4 years",
+      "B": "8 years",
+      "C": "10 years",
+      "D": "None of these"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 140,
+    "question": "A sum of Rs. 1360 has been divided among A, B, and C such that A gets 1/2 of what B gets, and B gets 1/3 of what C gets. B's share is:",
+    "options": {
+      "A": "Rs. 120",
+      "B": "Rs. 160",
+      "C": "Rs. 240",
+      "D": "Rs. 300"
+    },
+    "answer": "C",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 141,
+    "question": "An error of 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area is:",
+    "options": {
+      "A": "2%",
+      "B": "2.02%",
+      "C": "4%",
+      "D": "4.04%"
+    },
+    "answer": "D",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 142,
+    "question": "In a shower, 5 cm of rain falls. The volume of water that falls on 1.5 hectares of ground is:",
+    "options": {
+      "A": "75 cu. m",
+      "B": "750 cu. m",
+      "C": "7500 cu. m",
+      "D": "75000 cu. m"
+    },
+    "answer": "B",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 143,
+    "question": "The reflex angle between the hands of a clock at 10:25 is:",
+    "options": {
+      "A": "180\u00ba",
+      "B": "192.5\u00ba",
+      "C": "195\u00ba",
+      "D": "197.5\u00ba"
+    },
+    "answer": "D",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 144,
+    "question": "Two goods trains each 500 m long are running in opposite directions on parallel tracks at 45 km/hr and 30 km/hr respectively. The time taken by the slower train to pass the driver of the faster one is:",
+    "options": {
+      "A": "12 sec",
+      "B": "24 sec",
+      "C": "48 sec",
+      "D": "60 sec"
+    },
+    "answer": "B",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 145,
+    "question": "A metallic sheet is of rectangular shape with dimensions 48 m x 36 m. From each of its corners, a square is cut off to make an open box. If the length of the square is 8 m, the volume of the box is:",
+    "options": {
+      "A": "4830 m\u00b3",
+      "B": "5120 m\u00b3",
+      "C": "6420 m\u00b3",
+      "D": "8960 m\u00b3"
+    },
+    "answer": "B",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 146,
+    "question": "A man sells two buffaloes for Rs. 7,820 each. On one he gains 15% and on the other, he loses 15%. His total gain or loss in the transaction is:",
+    "options": {
+      "A": "2.5% gain",
+      "B": "2.25% loss",
+      "C": "2% loss",
+      "D": "5% loss"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 147,
+    "question": "A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr, and the other at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train?",
+    "options": {
+      "A": "66 km/hr",
+      "B": "72 km/hr",
+      "C": "78 km/hr",
+      "D": "81 km/hr"
+    },
+    "answer": "D",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 148,
+    "question": "A boatman goes 2 km against the current of the stream in 1 hour and goes 1 km along the current in 10 minutes. How long will it take to go 5 km in stationary water?",
+    "options": {
+      "A": "40 minutes",
+      "B": "1 hour",
+      "C": "1 hr 15 min",
+      "D": "1 hr 30 min"
+    },
+    "answer": "C",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 149,
+    "question": "What is the volume of a 32-meter high cylindrical tank?",
+    "options": {
+      "A": "4928 m\u00b3",
+      "B": "4820 m\u00b3",
+      "C": "5040 m\u00b3",
+      "D": "4600 m\u00b3"
+    },
+    "answer": "A",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 150,
+    "question": "A, B, and C subscribe Rs. 50,000 for a business. A subscribes Rs. 4000 more than B and B Rs. 5000 more than C. Out of a total profit of Rs. 35,000, A receives:",
+    "options": {
+      "A": "Rs. 8400",
+      "B": "Rs. 11,900",
+      "C": "Rs. 13,600",
+      "D": "Rs. 14,700"
+    },
+    "answer": "D",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 151,
+    "question": "The present worth of Rs. 2310 due 2 years hence, the rate of interest being 15% per annum, is:",
+    "options": {
+      "A": "Rs. 1750",
+      "B": "Rs. 1680",
+      "C": "Rs. 1840",
+      "D": "Rs. 1443.75"
+    },
+    "answer": "B",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 152,
+    "question": "The average age of husband, wife, and their child 3 years ago was 27 years, and that of the wife and the child 5 years ago was 20 years. The present age of the husband is:",
+    "options": {
+      "A": "35 years",
+      "B": "40 years",
+      "C": "50 years",
+      "D": "None of these"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 153,
+    "question": "The price of 2 sarees and 4 shirts is Rs. 1600. With the same money, one can buy 1 saree and 6 shirts. If one wants to buy 12 shirts, how much shall he have to pay?",
+    "options": {
+      "A": "Rs. 1200",
+      "B": "Rs. 2400",
+      "C": "Rs. 4800",
+      "D": "Cannot be determined"
+    },
+    "answer": "B",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 154,
+    "question": "A sum of Rs. 725 is lent in the beginning of a year at a certain rate of interest. After 8 months, a sum of Rs. 362.50 more is lent but at the rate twice the former. At the end of the year, Rs. 33.50 is earned as interest from both loans. What was the original rate of interest?",
+    "options": {
+      "A": "3.60%",
+      "B": "4.50%",
+      "C": "5%",
+      "D": "6%"
+    },
+    "answer": "C",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question_no": 155,
+    "question": "The ratio between the length and breadth of a rectangular park is 3:2. If a man cycling along the boundary of the park at 12 km/hr completes one round in 8 minutes, the area of the park (in sq. m) is:",
+    "options": {
+      "A": "15360",
+      "B": "153600",
+      "C": "30720",
+      "D": "307200"
+    },
+    "answer": "B",
+    "company_tag": "accenture",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 156,
+    "question": "The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface:",
+    "options": {
+      "A": "30 m\u00b2",
+      "B": "40 m\u00b2",
+      "C": "60 m\u00b2",
+      "D": "80 m\u00b2"
+    },
+    "answer": "C",
+    "company_tag": "cognizant",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 157,
+    "question": "A man wants to sell his scooter. There are two offers, one at Rs. 12,000 cash and the other a credit of Rs. 12,880 to be paid after 8 months, money being at 18% per annum. Which is the better offer?",
+    "options": {
+      "A": "Rs. 12,000 in cash",
+      "B": "Rs. 12,880 at credit",
+      "C": "Both are equally good",
+      "D": "Neither is good"
+    },
+    "answer": "A",
+    "company_tag": "tcs",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 158,
+    "question": "If log10 2 = 0.3010, then log2 10 is equal to:",
+    "options": {
+      "A": "0.301",
+      "B": "0.699",
+      "C": "0.301",
+      "D": "1.301"
+    },
+    "answer": "B",
+    "company_tag": "infosys",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "question_no": 159,
+    "question": "The product of two numbers is 120, and the sum of their squares is 289. The sum of the numbers is:",
+    "options": {
+      "A": "20",
+      "B": "23",
+      "C": "169",
+      "D": "None of these"
+    },
+    "answer": "B",
+    "company_tag": "wipro",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question_no": 160,
+    "question": "The banker's discount of a certain sum of money is Rs. 72 and the true discount on the same sum for the same time is Rs. 60. The sum due is:",
+    "options": {
+      "A": "Rs. 360",
+      "B": "Rs. 432",
+      "C": "Rs. 540",
+      "D": "Rs. 1080"
+    },
+    "answer": "A",
+    "company_tag": "capgemini",
+    "category": [
+      "all_questions",
+      "mathematical_aptitude"
+    ],
+    "difficulty": "hard"
+  }
+]
