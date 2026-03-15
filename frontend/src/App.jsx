@@ -3,17 +3,15 @@ import { BrowserRouter as Router, Routes, Route, Navigate, Outlet, useNavigate }
 import Sidebar from '../components/Sidebar';
 import Login from '../pages/Login';
 import Dashboard from '../pages/Dashboard';
-import InterviewSelect from '../pages/InterviewSelect';
-import InterviewLive from '../pages/InterviewLive';
 import History from '../pages/History';
 import Achievements from '../pages/Achievements';
 import QuestionBank from '../pages/QuestionBank';
-import CompanyInterviews from '../pages/CompanyInterviews';
 import Profile from '../pages/Profile';
 import Aptitude from '../pages/Aptitude';
 import CodingTest from '../pages/CodingTest';
 import CodingProblems from '../pages/CodingProblems';
 import CodingEditor from '../pages/CodingEditor';
+import AiInterviewer from '../pages/AiInterviewer';
 
 // Protected Route Component
 function ProtectedRoute({ user, onLogout }) {
@@ -64,7 +62,7 @@ export default function App() {
   }
 
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Routes>
         {/* Public Routes */}
         <Route path="/login" element={user ? <Navigate to="/dashboard" replace /> : <Login />} />
@@ -72,10 +70,8 @@ export default function App() {
         {/* Protected Routes */}
         <Route element={<ProtectedRoute user={user} onLogout={handleLogout} />}>
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/practice" element={<InterviewSelect />} />
-          <Route path="/companies" element={<CompanyInterviews />} />
+          <Route path="/ai-interviewer" element={<AiInterviewer />} />
           <Route path="/aptitude" element={<Aptitude />} />
-          <Route path="/interview/live" element={<InterviewLive />} />
           <Route path="/question-bank" element={<QuestionBank />} />
           <Route path="/history" element={<History />} />
           <Route path="/achievements" element={<Achievements />} />

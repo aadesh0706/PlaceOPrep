@@ -8,10 +8,10 @@ export default function Dashboard() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState({
-    kpis: { totalInterviews: 0, practiceTime: 0, averageScore: 0, bestScore: 0, currentStreak: 0 },
-    todayStats: { interviews: 0, time: 0, avgScore: 0 },
-    yesterdayStats: { interviews: 0, time: 0, avgScore: 0 },
-    weekStats: { interviews: 0, time: 0, avgScore: 0 },
+    kpis: { totalSessions: 0, practiceTime: 0, averageScore: 0, bestScore: 0, currentStreak: 0 },
+    todayStats: { sessions: 0, time: 0, avgScore: 0 },
+    yesterdayStats: { sessions: 0, time: 0, avgScore: 0 },
+    weekStats: { sessions: 0, time: 0, avgScore: 0 },
     skills: { technical: 0, hr: 0, aptitude: 0, communication: 0 },
     recentSessions: [],
     achievements: [],
@@ -26,15 +26,42 @@ export default function Dashboard() {
 
   const fetchDashboardData = async () => {
     try {
+      const token = localStorage.getItem('token');
+      if (!token) {
+        // Set default data if no token
+        setData({
+          kpis: { totalSessions: 0, practiceTime: 0, averageScore: 0, bestScore: 0, currentStreak: 0 },
+          todayStats: { sessions: 0, time: 0, avgScore: 0 },
+          yesterdayStats: { sessions: 0, time: 0, avgScore: 0 },
+          weekStats: { sessions: 0, time: 0, avgScore: 0 },
+          skills: { technical: 0, hr: 0, aptitude: 0, communication: 0 },
+          recentSessions: [],
+          achievements: [],
+          progressData: []
+        });
+        return;
+      }
+      
       const response = await api.get('/analytics/dashboard');
       setData({
         ...response.data,
-        todayStats: response.data.todayStats || { interviews: 0, time: 0, avgScore: 0 },
-        yesterdayStats: response.data.yesterdayStats || { interviews: 0, time: 0, avgScore: 0 },
-        weekStats: response.data.weekStats || { interviews: 0, time: 0, avgScore: 0 }
+        todayStats: response.data.todayStats || { sessions: 0, time: 0, avgScore: 0 },
+        yesterdayStats: response.data.yesterdayStats || { sessions: 0, time: 0, avgScore: 0 },
+        weekStats: response.data.weekStats || { sessions: 0, time: 0, avgScore: 0 }
       });
     } catch (error) {
       console.error('Error fetching dashboard data:', error);
+      // Set default data on error
+      setData({
+        kpis: { totalSessions: 0, practiceTime: 0, averageScore: 0, bestScore: 0, currentStreak: 0 },
+        todayStats: { sessions: 0, time: 0, avgScore: 0 },
+        yesterdayStats: { sessions: 0, time: 0, avgScore: 0 },
+        weekStats: { sessions: 0, time: 0, avgScore: 0 },
+        skills: { technical: 0, hr: 0, aptitude: 0, communication: 0 },
+        recentSessions: [],
+        achievements: [],
+        progressData: []
+      });
     } finally {
       setLoading(false);
     }
@@ -42,6 +69,11 @@ export default function Dashboard() {
 
   const fetchUserData = async () => {
     try {
+      const token = localStorage.getItem('token');
+      if (!token) {
+        return;
+      }
+      
       const response = await api.get('/auth/me');
       setUser(response.data.user);
     } catch (error) {
@@ -51,39 +83,35 @@ export default function Dashboard() {
 
   const quickStartOptions = [
     {
-      title: 'Technical Round',
+      title: 'Coding Problems',
       icon: Code,
       gradient: 'from-blue-500 to-cyan-500',
-      path: '/practice',
-      state: { type: 'technical' }
+      path: '/coding-problems'
     },
     {
-      title: 'HR Round',
+      title: 'Question Bank',
       icon: Users,
       gradient: 'from-purple-500 to-pink-500',
-      path: '/practice',
-      state: { type: 'hr' }
+      path: '/question-bank'
     },
     {
       title: 'Aptitude Test',
       icon: Brain,
       gradient: 'from-green-500 to-emerald-500',
-      path: '/practice',
-      state: { type: 'aptitude' }
+      path: '/aptitude'
     },
     {
-      title: 'Full Simulation',
+      title: 'Practice Session',
       icon: Zap,
       gradient: 'from-orange-500 to-red-500',
-      path: '/practice',
-      state: { type: 'full_simulation' }
+      path: '/coding-test'
     }
   ];
 
   const kpiCards = [
     {
-      title: 'Total Interviews',
-      value: data.kpis.totalInterviews,
+      title: 'Total Sessions',
+      value: data.kpis.totalSessions,
       icon: Target,
       gradient: 'from-blue-500 to-blue-600',
       motivation: 'Keep practicing!'
@@ -138,10 +166,10 @@ export default function Dashboard() {
           Welcome back, {user?.name || 'User'}! 👋
         </h1>
         <p className="text-gray-600 text-lg">
-          Ready to ace your next interview? Let's continue your practice journey.
+          Ready to improve your skills? Let's continue your practice journey.
         </p>
         <button
-          onClick={() => navigate('/practice')}
+          onClick={() => navigate('/coding-problems')}
           className="mt-4 px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all duration-200"
         >
           Start New Practice
@@ -179,8 +207,8 @@ export default function Dashboard() {
           </div>
           <div className="space-y-3">
             <div className="flex justify-between items-center">
-              <span className="text-blue-700">Interviews:</span>
-              <span className="font-bold text-blue-900">{data.todayStats.interviews}</span>
+              <span className="text-blue-700">Sessions:</span>
+              <span className="font-bold text-blue-900">{data.todayStats.sessions}</span>
             </div>
             <div className="flex justify-between items-center">
               <span className="text-blue-700">Practice Time:</span>
@@ -199,8 +227,8 @@ export default function Dashboard() {
           </div>
           <div className="space-y-3">
             <div className="flex justify-between items-center">
-              <span className="text-purple-700">Interviews:</span>
-              <span className="font-bold text-purple-900">{data.yesterdayStats.interviews}</span>
+              <span className="text-purple-700">Sessions:</span>
+              <span className="font-bold text-purple-900">{data.yesterdayStats.sessions}</span>
             </div>
             <div className="flex justify-between items-center">
               <span className="text-purple-700">Practice Time:</span>
@@ -219,8 +247,8 @@ export default function Dashboard() {
           </div>
           <div className="space-y-3">
             <div className="flex justify-between items-center">
-              <span className="text-green-700">Interviews:</span>
-              <span className="font-bold text-green-900">{data.weekStats.interviews}</span>
+              <span className="text-green-700">Sessions:</span>
+              <span className="font-bold text-green-900">{data.weekStats.sessions}</span>
             </div>
             <div className="flex justify-between items-center">
               <span className="text-green-700">Practice Time:</span>
@@ -243,7 +271,7 @@ export default function Dashboard() {
             return (
               <button
                 key={index}
-                onClick={() => navigate(option.path, { state: option.state })}
+                onClick={() => navigate(option.path)}
                 className={`p-6 bg-gradient-to-br ${option.gradient} rounded-xl text-white hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-200`}
               >
                 <Icon className="w-10 h-10 mb-3" />
@@ -299,7 +327,7 @@ export default function Dashboard() {
             <div className="text-center py-12">
               <p className="text-gray-500 mb-4">No practice sessions yet</p>
               <button
-                onClick={() => navigate('/practice')}
+                onClick={() => navigate('/coding-problems')}
                 className="px-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
               >
                 Start your first session

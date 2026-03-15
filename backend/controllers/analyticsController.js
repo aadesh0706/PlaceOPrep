@@ -6,7 +6,15 @@ const Achievement = require('../models/Achievement');
 // Get dashboard stats
 exports.getDashboardStats = async (req, res) => {
   try {
+    if (!req.userId) {
+      return res.status(401).json({ message: 'Unauthorized' });
+    }
+
     const user = await User.findById(req.userId);
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
     const skills = await Skill.findOne({ userId: req.userId });
     
     // Get date ranges
@@ -24,7 +32,7 @@ exports.getDashboardStats = async (req, res) => {
       createdAt: { $gte: todayStart }
     });
     const todayStats = {
-      interviews: todaySessions.length,
+      sessions: todaySessions.length,
       time: Math.floor(todaySessions.reduce((sum, s) => sum + (s.duration || 0), 0) / 60),
       avgScore: todaySessions.length > 0 
         ? Math.round(todaySessions.reduce((sum, s) => sum + (s.score || 0), 0) / todaySessions.length)
@@ -38,7 +46,7 @@ exports.getDashboardStats = async (req, res) => {
       createdAt: { $gte: yesterdayStart, $lt: todayStart }
     });
     const yesterdayStats = {
-      interviews: yesterdaySessions.length,
+      sessions: yesterdaySessions.length,
       time: Math.floor(yesterdaySessions.reduce((sum, s) => sum + (s.duration || 0), 0) / 60),
       avgScore: yesterdaySessions.length > 0
         ? Math.round(yesterdaySessions.reduce((sum, s) => sum + (s.score || 0), 0) / yesterdaySessions.length)
@@ -52,7 +60,7 @@ exports.getDashboardStats = async (req, res) => {
       createdAt: { $gte: weekStart }
     });
     const weekStats = {
-      interviews: weekSessions.length,
+      sessions: weekSessions.length,
       time: Math.floor(weekSessions.reduce((sum, s) => sum + (s.duration || 0), 0) / 60),
       avgScore: weekSessions.length > 0
         ? Math.round(weekSessions.reduce((sum, s) => sum + (s.score || 0), 0) / weekSessions.length)
@@ -100,11 +108,11 @@ exports.getDashboardStats = async (req, res) => {
 
     res.json({
       kpis: {
-        totalInterviews: user.totalInterviews,
-        practiceTime: user.practiceTime,
-        averageScore: user.averageScore,
-        bestScore: user.bestScore,
-        currentStreak: user.currentStreak
+        totalSessions: user.totalInterviews || 0,
+        practiceTime: user.practiceTime || 0,
+        averageScore: user.averageScore || 0,
+        bestScore: user.bestScore || 0,
+        currentStreak: user.currentStreak || 0
       },
       todayStats,
       yesterdayStats,
@@ -122,7 +130,14 @@ exports.getDashboardStats = async (req, res) => {
 // Get detailed analytics
 exports.getDetailedAnalytics = async (req, res) => {
   try {
+    if (!req.userId) {
+      return res.status(401).json({ message: 'Unauthorized' });
+    }
+
     const user = await User.findById(req.userId);
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
 
     // Category-wise performance
     const categoryStats = await Session.aggregate([
@@ -177,6 +192,10 @@ exports.getDetailedAnalytics = async (req, res) => {
 // Get skills
 exports.getSkills = async (req, res) => {
   try {
+    if (!req.userId) {
+      return res.status(401).json({ message: 'Unauthorized' });
+    }
+
     const skills = await Skill.findOne({ userId: req.userId });
     if (!skills) {
       return res.status(404).json({ message: 'Skills not found' });

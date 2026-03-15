@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  # Redis service for LiveKit
+  redis:
+    image: redis:7-alpine
+    container_name: skillspectrum-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+    networks:
+      - skillspectrum-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  # LiveKit server
+  livekit:
+    image: livekit/livekit-server:latest
+    container_name: skillspectrum-livekit
+    ports:
+      - "7880:7880"
+      - "7881:7881"
+      - "7882:7882"
+      - "7883:7883/udp"
+      - "7884:7884/udp"
+      - "7885:7885/udp"
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      LIVEKIT_API_KEY: ${LIVEKIT_API_KEY:-devkey}
+      LIVEKIT_API_SECRET: ${LIVEKIT_API_SECRET:-secret}
+      LIVEKIT_REDIS_HOST: redis:6379
+      LIVEKIT_DEV: "true"
+      LIVEKIT_PORT: "7880"
+      LIVEKIT_BIND_ADDRESSES: "0.0.0.0"
+      LIVEKIT_USE_EXTERNAL_IP: "false"
+    volumes:
+      - ./livekit-config.yaml:/etc/livekit.yaml:ro
+    networks:
+      - skillspectrum-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7880/"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  redis-data:
+
+networks:
+  skillspectrum-network:
+    driver: bridge

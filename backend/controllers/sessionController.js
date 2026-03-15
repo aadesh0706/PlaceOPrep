@@ -3,7 +3,6 @@ const User = require('../models/User');
 const Question = require('../models/Question');
 const Skill = require('../models/Skill');
 const Achievement = require('../models/Achievement');
-const axios = require('axios');
 
 // Helper function to update achievements
 const updateAchievements = async (userId, type, score) => {

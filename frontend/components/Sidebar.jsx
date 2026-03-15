@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { LayoutDashboard, BookOpen, Library, History, Trophy, LogOut, Building2, User, Brain, Code } from 'lucide-react';
+import { LayoutDashboard, Library, History, Trophy, LogOut, User, Brain, Code, Bot } from 'lucide-react';
 
 const Sidebar = ({ user, onLogout }) => {
   const location = useLocation();
@@ -7,8 +7,7 @@ const Sidebar = ({ user, onLogout }) => {
 
   const menuItems = [
     { path: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
-    { path: '/practice', icon: BookOpen, label: 'Practice' },
-    { path: '/companies', icon: Building2, label: 'Companies' },
+    { path: '/ai-interviewer', icon: Bot, label: 'AI Interviewer' },
     { path: '/aptitude', icon: Brain, label: 'Aptitude' },
     { path: '/question-bank', icon: Library, label: 'Question Bank' },
     { path: '/coding-problems', icon: Code, label: 'Coding Problems' },

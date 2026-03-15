@@ -353,10 +353,13 @@ export default function CodeEditor({ question, language: initialLanguage = 'java
                   </p>
                 </div>
 
-                {question.testCases && question.testCases.length > 0 && (
+                {/* Examples Section - Render only once */}
+                {((question.testCases && question.testCases.length > 0) || (question.examples && question.examples.length > 0)) && (
                   <div className="space-y-4">
                     <h2 className="text-lg font-semibold text-gray-900">Examples:</h2>
-                    {question.testCases.map((testCase, index) => (
+                    
+                    {/* Render from testCases if available */}
+                    {question.testCases && question.testCases.length > 0 && question.testCases.map((testCase, index) => (
                       <div key={index} className="bg-gray-50 border border-gray-200 rounded-lg p-4">
                         <div className="text-sm font-semibold text-gray-600 mb-2">Example {index + 1}:</div>
                         <div className="space-y-2">
@@ -377,6 +380,62 @@ export default function CodeEditor({ question, language: initialLanguage = 'java
                         </div>
                       </div>
                     ))}
+                    
+                    {/* Render from examples if testCases not available */}
+                    {(!question.testCases || question.testCases.length === 0) && question.examples && question.examples.length > 0 && question.examples.map((example, index) => {
+                      const exampleText = example.example_text || example.text || '';
+                      const hasInputOutput = exampleText.includes('Input:') && exampleText.includes('Output:');
+                      
+                      if (hasInputOutput) {
+                        const lines = exampleText.split('\n');
+                        let inputText = '';
+                        let outputText = '';
+                        let explanationText = '';
+                        
+                        lines.forEach(line => {
+                          if (line.startsWith('Input:')) {
+                            inputText = line.replace('Input:', '').trim();
+                          } else if (line.startsWith('Output:')) {
+                            outputText = line.replace('Output:', '').trim();
+                          } else if (line.startsWith('Explanation:')) {
+                            explanationText = line.replace('Explanation:', '').trim();
+                          }
+                        });
+                        
+                        return (
+                          <div key={index} className="bg-gray-50 border border-gray-200 rounded-lg p-4">
+                            <div className="text-sm font-semibold text-gray-600 mb-2">Example {index + 1}:</div>
+                            <div className="space-y-2">
+                              <div>
+                                <span className="text-gray-600">Input: </span>
+                                <code className="text-gray-800 bg-white px-2 py-1 rounded border">{inputText}</code>
+                              </div>
+                              <div>
+                                <span className="text-gray-600">Output: </span>
+                                <code className="text-gray-800 bg-white px-2 py-1 rounded border">{outputText}</code>
+                              </div>
+                              {explanationText && (
+                                <div className="text-gray-600 text-sm mt-2">
+                                  <span className="font-semibold">Explanation: </span>
+                                  {explanationText}
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        );
+                      } else {
+                        return (
+                          <div key={index} className="bg-gray-50 border border-gray-200 rounded-lg p-4">
+                            <div className="text-sm font-semibold text-gray-600 mb-2">Example {index + 1}:</div>
+                            <div className="bg-white rounded-lg p-3 border">
+                              <pre className="text-gray-800 text-sm font-mono whitespace-pre-wrap leading-relaxed">
+                                {exampleText}
+                              </pre>
+                            </div>
+                          </div>
+                        );
+                      }
+                    })}
                   </div>
                 )}
 

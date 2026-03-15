@@ -9,7 +9,6 @@ dotenv.config();
 
 // Import routes
 const authRoutes = require('./routes/auth');
-const interviewRoutes = require('./routes/interview');
 const analyticsRoutes = require('./routes/analytics');
 const sessionRoutes = require('./routes/sessions');
 const questionRoutes = require('./routes/questions');
@@ -50,10 +49,6 @@ mongoose.connect(MONGO_URI)
 
 // Routes
 app.use('/api/auth', authRoutes);
-app.use('/api/interview', (req, res, next) => {
-  console.log('Interview route hit:', req.method, req.path);
-  next();
-}, interviewRoutes);
 app.use('/api/analytics', analyticsRoutes);
 app.use('/api/sessions', sessionRoutes);
 app.use('/api/questions', questionRoutes);
