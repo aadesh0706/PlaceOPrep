@@ -79,7 +79,9 @@ export default function Profile() {
       
       const formDataToSend = new FormData();
       formDataToSend.append('name', formData.name);
-      formDataToSend.append('gender', formData.gender);
+      if (formData.gender) {
+        formDataToSend.append('gender', formData.gender);
+      }
       formDataToSend.append('mobileNumber', formData.mobileNumber);
       
       if (avatarFile) {

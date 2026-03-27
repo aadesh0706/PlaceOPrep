@@ -130,11 +130,20 @@ exports.getCurrentUser = async (req, res) => {
 exports.updateProfile = async (req, res) => {
   try {
     const { name, gender, mobileNumber } = req.body;
+    const allowedGenders = ['Male', 'Female', 'Other', 'Prefer not to say'];
     
     const updateData = {};
-    if (name !== undefined) updateData.name = name;
-    if (gender !== undefined) updateData.gender = gender;
-    if (mobileNumber !== undefined) updateData.mobileNumber = mobileNumber;
+    if (name !== undefined) {
+      const normalizedName = String(name).trim();
+      if (normalizedName) updateData.name = normalizedName;
+    }
+    if (gender !== undefined) {
+      const normalizedGender = String(gender).trim();
+      if (normalizedGender && allowedGenders.includes(normalizedGender)) {
+        updateData.gender = normalizedGender;
+      }
+    }
+    if (mobileNumber !== undefined) updateData.mobileNumber = String(mobileNumber).trim();
     
     // Handle file upload
     if (req.file) {
