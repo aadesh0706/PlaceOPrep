@@ -25,7 +25,7 @@ function AiInterviewer() {
     };
 
     try {
-      const response = await fetch('http://localhost:5000/generate-questions', {
+      const response = await fetch('https://placeoprep-ai.vercel.app/generate-questions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
@@ -39,7 +39,7 @@ function AiInterviewer() {
         
         if (format === 'video') {
           const num_questions = result.questions.length;
-          const tavusResponse = await fetch('http://localhost:5000/api/tavus/start', {
+          const tavusResponse = await fetch('https://placeoprep-ai.vercel.app/api/tavus/start', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ 

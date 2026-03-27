@@ -9,7 +9,7 @@ export const useTavusAvatar = () => {
 
   const initializeTavus = async (containerId, interviewData) => {
     try {
-      const response = await fetch('http://localhost:5000/api/tavus/start', {
+      const response = await fetch('https://placeoprep-ai.vercel.app/api/tavus/start', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(interviewData)
@@ -56,7 +56,7 @@ export const useTavusAvatar = () => {
     if (!conversationId) return;
     
     try {
-      await fetch('http://localhost:5000/api/tavus/send-message', {
+      await fetch('https://placeoprep-ai.vercel.app/api/tavus/send-message', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

@@ -77,7 +77,7 @@ function InterviewDashboard({ questions, sessionId, onEndInterview, candidateNam
     }, 1500);
     
     try {
-      const response = await fetch('http://localhost:5000/speak-question', {
+      const response = await fetch('https://placeoprep-ai.vercel.app/speak-question', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question: currentQuestion })
@@ -141,7 +141,7 @@ function InterviewDashboard({ questions, sessionId, onEndInterview, candidateNam
           formData.append('question_index', currentQuestionIndex);
           
           try {
-            const response = await fetch('http://localhost:5000/transcribe-answer', {
+            const response = await fetch('https://placeoprep-ai.vercel.app/transcribe-answer', {
               method: 'POST',
               body: formData
             });

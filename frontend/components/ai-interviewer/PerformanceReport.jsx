@@ -11,7 +11,7 @@ function PerformanceReport({ sessionId, onStartNew }) {
     const fetchReport = async () => {
       try {
         console.log('📊 Fetching report for session:', sessionId);
-        const response = await fetch('http://localhost:5000/generate-report', {
+        const response = await fetch('https://placeoprep-ai.vercel.app/generate-report', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ session_id: sessionId })
