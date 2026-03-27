@@ -28,7 +28,7 @@ const Sidebar = ({ user, onLogout }) => {
       {/* Logo and Tagline */}
       <div className="p-6 border-b border-white/10">
         <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-          PlaceOPrep
+          SkillSpectrum
         </h1>
         <p className="text-sm text-purple-200 mt-1">Master Your Interview</p>
       </div>

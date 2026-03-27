@@ -9,7 +9,7 @@ export default function Navbar({ onNavigate }){
             <span className="text-white font-bold text-xl">S</span>
           </div>
           <div>
-            <div className="font-bold text-xl bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">PlaceOPrep</div>
+            <div className="font-bold text-xl bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">SkillSpectrum</div>
             <div className="text-xs text-gray-500">Interview Intelligence Platform</div>
           </div>
         </div>

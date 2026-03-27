@@ -54,7 +54,7 @@ export default function Login() {
             {isLogin ? 'Welcome Back' : 'Create Account'}
           </h2>
           <p className="text-gray-500">
-            {isLogin ? 'Sign in to PlaceOPrep' : 'Join PlaceOPrep today'}
+            {isLogin ? 'Sign in to SkillSpectrum' : 'Join SkillSpectrum today'}
           </p>
         </div>
 
